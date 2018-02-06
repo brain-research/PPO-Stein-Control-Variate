@@ -49,7 +49,11 @@ if __name__ == "__main__":
 			type=str, default='large')
     parser.add_argument('-po', '--phi_obj', help='phi objective \
             function FitQ or MinVar', type=str, default='MinVar')
-    
+    # New options
+    parser.add_argument('--unbiased', help='Use unbiased gradients', action='store_true', default=False)
+    parser.add_argument('--extra-sample', help='Use a new action sample instead of importance weighting it', action='store_true', default=False)
+    parser.add_argument('--state-only', help='Make Phi only a function of the state', action='store_true', default=False)
+
     args = parser.parse_args()
 
     # logs

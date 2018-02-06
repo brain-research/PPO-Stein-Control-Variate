@@ -279,7 +279,10 @@ def main(env_name, num_iterations, gamma, lam, kl_targ,
         reg_scale, phi_lr, 
         phi_hs, 
         policy_size, 
-        phi_obj):
+        phi_obj,
+         unbiased,
+         extra_sample,
+         state_only):
     """ Main training loop
 
     Args:
@@ -321,7 +324,10 @@ def main(env_name, num_iterations, gamma, lam, kl_targ,
             c_ph=coef, 
             reg_scale=reg_scale,
             lr_phi=phi_lr,
-            phi_obj=phi_obj)
+            phi_obj=phi_obj,
+                    unbiased=unbiased,
+                    extra_sample=extra_sample,
+                    state_only=state_only)
     
     # run a few episodes of untrained policy to initialize scaler:
     run_policy(env, policy, scaler, batch_size=1000, max_timesteps=max_timesteps)

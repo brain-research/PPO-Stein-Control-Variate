@@ -24,7 +24,10 @@ class Policy(object):
                 c_ph=1, 
                 reg_scale=.0,
                 lr_phi=0.0005,
-                phi_obj='MinVar'):
+                phi_obj='MinVar',
+                unbiased=False,
+                 extra_sample=False,
+                 state_only=False):
         """
         Args:
             obs_dim: num observation dimensions (int)
@@ -57,6 +60,9 @@ class Policy(object):
         self.c_ph = c_ph
         self.policy_size=policy_size
         self.phi_obj = phi_obj
+        self.unbiased = unbiased
+        self.extra_sample = extra_sample
+        self.state_only = state_only
 
         # create Phi networks
         self.reg_scale = reg_scale
@@ -231,7 +237,11 @@ class Policy(object):
     def _loss_train_op(self):
       
         # get Phi function and its derivatives 
-        phi_value, phi_act_g = self.phi(self.obs_ph, self.act_ph, reuse=False)
+        if self.state_only:
+          phi_value, _ = self.phi(self.obs_ph, tf.stop_gradient(self.means), reuse=False)
+          phi_act_g = 0.
+        else:
+          phi_value, phi_act_g = self.phi(self.obs_ph, self.act_ph, reuse=False)
         self.phi_value = phi_value
         self.phi_act_g = phi_act_g
         self.phi_nn_vars = self.phi.phi_vars
@@ -245,15 +255,33 @@ class Policy(object):
 
         self.phi_value.set_shape((None,))
 
-        log_vars_inner = tf.expand_dims(tf.exp(self.logp - self.logp_old), 1) \
-                        * (ll_log_vars_g * tf.expand_dims(self.advantages_ph 
-                        - self.c_ph * self.phi_value, 1) \
-                        + 1/2 * self.c_ph * ll_mean_g * self.phi_act_g )
-            
-        means_inner = tf.expand_dims(tf.exp(self.logp - self.logp_old), 1) \
-                        * (ll_mean_g * tf.expand_dims(self.advantages_ph - 
-                        self.c_ph * self.phi_value, 1) \
-                        + self.c_ph * self.phi_act_g)
+        if self.extra_sample and not self.state_only:
+          # Compute new action sample from current policy
+          current_act = (self.means +
+                         tf.exp(self.log_vars / 2.0) *
+                         tf.random_normal(shape=(self.act_dim,)))
+
+          _, phi_current_act_g = self.phi(self.obs_ph, current_act, reuse=True)
+          current_ll_mean_g = 1/tf.exp(self.log_vars) * (current_act - self.means)
+
+          log_vars_inner = (tf.expand_dims(tf.exp(self.logp - self.logp_old), 1)
+                            * (ll_log_vars_g * tf.expand_dims(self.advantages_ph - self.c_ph * self.phi_value, 1))
+                            + 1/2 * self.c_ph * current_ll_mean_g * phi_current_act_g)
+
+          means_inner = (tf.expand_dims(tf.exp(self.logp - self.logp_old), 1)
+                          * (ll_mean_g * tf.expand_dims(self.advantages_ph - self.c_ph * self.phi_value, 1))
+                          + self.c_ph * phi_current_act_g)
+
+        else:
+          log_vars_inner = tf.expand_dims(tf.exp(self.logp - self.logp_old), 1) \
+                          * (ll_log_vars_g * tf.expand_dims(self.advantages_ph 
+                          - self.c_ph * self.phi_value, 1) \
+                          + 1/2 * self.c_ph * ll_mean_g * self.phi_act_g )
+
+          means_inner = tf.expand_dims(tf.exp(self.logp - self.logp_old), 1) \
+                          * (ll_mean_g * tf.expand_dims(self.advantages_ph - 
+                          self.c_ph * self.phi_value, 1) \
+                          + self.c_ph * self.phi_act_g)
         
         loss1_log_vars = - tf.reduce_mean(
                         tf.stop_gradient(log_vars_inner) * \
@@ -359,17 +387,17 @@ class Policy(object):
         feed_dict[self.old_log_vars_ph] = old_log_vars_np
         feed_dict[self.old_means_ph] = old_means_np
         loss, kl, entropy = 0, 0, 0
-        
-        if self.c_ph == 1.:
+
+        if self.c_ph == 1. and not self.unbiased:
             # Update phi function & policy network
             logger.log("Training Phi for %d epochs"%self.phi_epochs)
-            
+
             for _ in progressbar(range(self.phi_epochs), "Train Phi:", 25):
                 self.sess.run(self.phi_train_op, feed_dict)
                 phi_loss = self.sess.run(self.phi_loss, feed_dict)
 
             logger.record_tabular("Phi_loss", phi_loss)
-        
+
         # Training policy
         logger.log("Training Policy for %d epochs"%self.epochs)
         for _ in progressbar(range(self.epochs), "Train Policy", 25):
@@ -389,6 +417,16 @@ class Policy(object):
                 if (use_lr_adjust):
                     if self.beta < (1 / 30) and self.lr_multiplier < 10:
                         self.lr_multiplier *= 1.5
+
+        if self.c_ph == 1. and self.unbiased:
+            # Update phi function & policy network
+            logger.log("Training Phi for %d epochs"%self.phi_epochs)
+
+            for _ in progressbar(range(self.phi_epochs), "Train Phi:", 25):
+                self.sess.run(self.phi_train_op, feed_dict)
+                phi_loss = self.sess.run(self.phi_loss, feed_dict)
+
+            logger.record_tabular("Phi_loss", phi_loss)
 
         logger.record_dicts({
             'PolicyLoss': loss,
