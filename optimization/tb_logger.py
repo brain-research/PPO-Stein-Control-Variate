@@ -7,7 +7,8 @@ import time
 import datetime
 import tempfile
 
-LOG_OUTPUT_FORMATS = ['log', 'json', 'tensorboard', 'stdout']
+# LOG_OUTPUT_FORMATS = ['log', 'json', 'tensorboard', 'stdout']
+LOG_OUTPUT_FORMATS = ['log', 'json', 'stdout']
 
 DEBUG = 10
 INFO = 20
@@ -100,7 +101,7 @@ class TensorBoardOutputFormat(OutputFormat):
         prefix = 'events'
         path = osp.join(osp.abspath(dir), prefix)
         import tensorflow as tf
-        from tensorflow.python import pywrap_tensorflow        
+        from tensorflow.python import pywrap_tensorflow
         from tensorflow.core.util import event_pb2
         from tensorflow.python.util import compat
         self.tf = tf
@@ -168,7 +169,7 @@ def dumpkvs():
     Logger.CURRENT.dumpkvs()
 
 def getkvs():
-    return Logger.CURRENT.name2val    
+    return Logger.CURRENT.name2val
 
 
 def log(*args, level=INFO):
@@ -267,9 +268,9 @@ def configure(dir=None, format_strs=None):
         "Only call logger.configure() when it's in the default state. Try calling logger.reset() first."
     prevlogger = Logger.CURRENT
     if dir is None:
-        dir = os.getenv('DARTML_LOGDIR')
+        raise("you better specify a dirname for logging homie -- it's None rn")
     if dir is None:
-        dir = osp.join(tempfile.gettempdir(), 
+        dir = osp.join(tempfile.gettempdir(),
             datetime.datetime.now().strftime("dartml-%Y-%m-%d-%H-%M-%S-%f"))
     if format_strs is None:
         format_strs = LOG_OUTPUT_FORMATS

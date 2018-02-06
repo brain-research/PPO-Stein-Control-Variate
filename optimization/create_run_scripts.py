@@ -7,9 +7,11 @@ def main():
     fname = "run_i{}.sh".format(i+23)
     with open(fname, 'w+') as f:
       for seed in [121, 144, 169, 225, 256]:
-        line = "python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s {} {} &\n".format(seed, extra_option)
+        logdir = 'halfcheetah_{}_{}'.format(''.join(extra_option.split(" "))[2:], seed)
+        line = "python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s {} {} --dir-name={} &\n".format(seed, extra_option, logdir)
         f.write(line)
-        line = "python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s {} {}&\n".format(seed, extra_option)
+        logdir = 'humanoid_{}_{}'.format(''.join(extra_option.split(" "))[2:], seed)
+        line = "python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s {} {} --dir-name={} &\n".format(seed, extra_option, logdir)
         f.write(line)
 
 if __name__ == '__main__':

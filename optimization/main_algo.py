@@ -2,8 +2,8 @@
 """
 Stein PPO: Sample-efficient Policy Optimization with Stein Control Variate
 
-Motivated by the Stein’s identity, Stein PPO extends the previous 
-control variate methods used in REINFORCE and advantage actor-critic 
+Motivated by the Stein’s identity, Stein PPO extends the previous
+control variate methods used in REINFORCE and advantage actor-critic
 by introducing more general action-dependent baseline functions.
 Details see the following papers:
 
@@ -33,7 +33,7 @@ import gym
 import random
 
 import numpy as np
-import tb_logger as logger 
+import tb_logger as logger
 
 import scipy.signal
 from gym import wrappers
@@ -73,7 +73,7 @@ def init_gym(env_name):
     return env, obs_dim, act_dim
 
 
-def run_episode(env, policy, scaler, max_timesteps, animate=False): 
+def run_episode(env, policy, scaler, max_timesteps, animate=False):
     """ Run single episode with option to animate
 
     Args:
@@ -97,7 +97,7 @@ def run_episode(env, policy, scaler, max_timesteps, animate=False):
     scale[-1] = 1.0  # don't scale time step feature
     offset[-1] = 0.0  # don't offset time step feature
     for _ in range(max_timesteps):
-        
+
         if animate:
             env.render()
         obs = obs.astype(np.float32).reshape((1, -1))
@@ -152,7 +152,7 @@ def run_policy(env, policy, scaler, batch_size, max_timesteps):
 
     unscaled = np.concatenate([t['unscaled_obs'] for t in trajectories])
     scaler.update(unscaled)  # update running statistics for scaling observations
-    
+
     logger.record_dicts({
         "_MeanReward":np.mean([t['rewards'].sum() for t in trajectories]),
         'Steps': total_steps,})
@@ -269,20 +269,21 @@ def log_batch_stats(observes, actions, advantages, disc_sum_rew):
         '_min_discrew': np.min(disc_sum_rew),
         '_max_discrew': np.max(disc_sum_rew),
         '_std_discrew': np.var(disc_sum_rew)})
-    
+
     logger.dump_tabular()
 
 
-def main(env_name, num_iterations, gamma, lam, kl_targ, 
-        batch_size,hid1_mult, policy_logvar, coef, use_lr_adjust, ada_kl_penalty, 
+def main(env_name, num_iterations, gamma, lam, kl_targ,
+        batch_size,hid1_mult, policy_logvar, coef, use_lr_adjust, ada_kl_penalty,
         seed, epochs, phi_epochs, max_timesteps,
-        reg_scale, phi_lr, 
-        phi_hs, 
-        policy_size, 
+        reg_scale, phi_lr,
+        phi_hs,
+        policy_size,
         phi_obj,
-         unbiased,
-         extra_sample,
-         state_only):
+        unbiased, # EXTRA NEW ONES
+        extra_sample,
+        state_only,
+        dir_name):
     """ Main training loop
 
     Args:
@@ -298,7 +299,7 @@ def main(env_name, num_iterations, gamma, lam, kl_targ,
         use_lr_adjust: whether adjust lr based on kl
         ada_kl_penalty: whether adjust kl penalty
         max_timesteps: maximum time steps per trajectory
-        reg_scale: regularization coefficient 
+        reg_scale: regularization coefficient
         policy_size: policy network size
         phi_obj: FitQ or MinVar
     """
@@ -312,47 +313,47 @@ def main(env_name, num_iterations, gamma, lam, kl_targ,
     now = datetime.utcnow().strftime("%b-%d_%H:%M:%S")
     aigym_path = os.path.join('log-files/', env_name, now)
     env = wrappers.Monitor(env, aigym_path, force=True, video_callable=False)
-    
+
     scaler = Scaler(obs_dim)
     val_func = NNValueFunction(obs_dim, hid1_mult)
-    
-    policy = Policy(obs_dim, act_dim, kl_targ, 
+
+    policy = Policy(obs_dim, act_dim, kl_targ,
             hid1_mult, policy_logvar,
-            epochs, phi_epochs, 
+            epochs, phi_epochs,
             policy_size=policy_size,
             phi_hidden_sizes=phi_hs,
-            c_ph=coef, 
+            c_ph=coef,
             reg_scale=reg_scale,
             lr_phi=phi_lr,
             phi_obj=phi_obj,
                     unbiased=unbiased,
                     extra_sample=extra_sample,
                     state_only=state_only)
-    
+
     # run a few episodes of untrained policy to initialize scaler:
     run_policy(env, policy, scaler, batch_size=1000, max_timesteps=max_timesteps)
 
     for _ in range(num_iterations):
         logger.log("\n#Training Iter %d"%(_))
         logger.log("Draw Samples..")
-        
-        trajectories = run_policy(env, policy, scaler, 
-            batch_size=batch_size, max_timesteps=max_timesteps) 
-        
+
+        trajectories = run_policy(env, policy, scaler,
+            batch_size=batch_size, max_timesteps=max_timesteps)
+
         add_value(trajectories, val_func)  # add estimated values to episodes
         add_disc_sum_rew(trajectories, gamma)  # calculated discounted sum of Rs
         add_gae(trajectories, gamma, lam)  # calculate advantage
-        
+
         # concatenate all episodes into single NumPy arrays
         observes, actions, advantages, disc_sum_rew = build_train_set(trajectories)
-        
+
         # add various stats to training log:
         log_batch_stats(observes, actions, advantages, disc_sum_rew)
 
         logger.log("Starting Training...")
         policy.update(observes, actions, advantages, \
                 use_lr_adjust, ada_kl_penalty)  # update policy
- 
+
         val_func.fit(observes, disc_sum_rew)  # update value function
 
         logger.log('--------------------------------\n')

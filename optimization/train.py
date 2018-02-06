@@ -2,7 +2,7 @@
 
 import os
 import argparse
-import tb_logger as logger 
+import tb_logger as logger
 
 from main_algo import main
 from datetime import datetime
@@ -39,13 +39,14 @@ if __name__ == "__main__":
     parser.add_argument('-mt', '--max_timesteps', help='Max timesteps', type=int, default=1000)
     parser.add_argument('-r', '--reg_scale', help='regularization scale on phi function', type=float, default=.0)
     parser.add_argument('-lr', '--phi_lr', help='phi learning_rate', type=float, default=0.0005)
-    parser.add_argument('-ph', '--phi_hs', 
-                        help='phi structure, default 100x100 for mlp', 
+    parser.add_argument('-ph', '--phi_hs',
+                        help='phi structure, default 100x100 for mlp',
                         type=str, default='100x100')
-    
-    parser.add_argument('-ps', '--policy_size', 
+
+    parser.add_argument('--dir-name', type=str, help='Specify a directory name for logging')
+    parser.add_argument('-ps', '--policy_size',
 			help='large or small policy size to use, \
-            use small for Ant, Humanoid and HumanoidStandup', 
+            use small for Ant, Humanoid and HumanoidStandup',
 			type=str, default='large')
     parser.add_argument('-po', '--phi_obj', help='phi objective \
             function FitQ or MinVar', type=str, default='MinVar')
@@ -58,14 +59,17 @@ if __name__ == "__main__":
 
     # logs
     dir_name = os.path.join('dartml_data', 'env=%s/'%(args.env_name))
-    
+
     if args.coef == 0.:
         dir_name += 'PPO-%s'%(datetime.now().strftime('%m_%d_%H:%M:%S'))
     else:
         dir_name += 'Stein-PPO_Phi_obj=%s-%s'%(args.phi_obj, \
             datetime.now().strftime('%m_%d_%H:%M:%S'))
 
-    
+
+    dir_name = args.dir_name
+    print("DIR_NAME: {}".format(dir_name))
+
     if not os.path.exists(dir_name):
         os.makedirs(dir_name)
     os.environ["DARTML_LOGDIR"]=dir_name
