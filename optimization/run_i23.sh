@@ -1,0 +1,10 @@
+python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s 121  &
+python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s 121 &
+python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s 144  &
+python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s 144 &
+python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s 169  &
+python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s 169 &
+python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s 225  &
+python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s 225 &
+python train.py HalfCheetah-v1 -b 10000 -ps large -po MinVar -p 500 -s 256  &
+python train.py Humanoid-v1 -b 10000 -ps small -po MinVar -p 500 -s 256 &
