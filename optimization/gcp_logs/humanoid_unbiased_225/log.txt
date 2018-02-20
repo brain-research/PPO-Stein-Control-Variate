@@ -1,0 +1,6153 @@
+Logging to humanoid_unbiased_225
+using small structure
+Policy Params -- h1: 377, h2: 80,                     h3: 17, lr: 0.000101, logvar_speed: 3
+phi with MinVar as objecive function
+
+#Training Iter 0
+Draw Samples..
+-------------------------------
+| Steps         | 10023       |
+| _MeanReward   | 99.3        |
+| _max_act      | 3.08862     |
+| _max_adv      | 5.36        |
+| _max_discrew  | 0.999       |
+| _max_obs      | 2.9e+03     |
+| _mean_act     | 0.000278708 |
+| _mean_adv     | 2.27e-17    |
+| _mean_discrew | 0.267       |
+| _mean_obs     | 0.00797     |
+| _min_adv      | -4.18       |
+| _min_discrew  | 0.00308     |
+| _min_obs      | -1.3e+03    |
+| _std_act      | 0.408237    |
+| _std_adv      | 1           |
+| _std_discrew  | 0.0258      |
+-------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 1
+Draw Samples..
+--------------------------------
+| Beta            | 1          |
+| ExplainedVarNew | 0.768      |
+| ExplainedVarOld | -0.29      |
+| KL              | 0.00564946 |
+| Phi_loss        | 22.1958    |
+| PolicyEntropy   | 15.6126    |
+| PolicyLoss      | 0.271753   |
+| Steps           | 10003      |
+| VarFuncLoss     | 0.006      |
+| _MeanReward     | 102        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.76048    |
+| _max_adv        | 11.9       |
+| _max_discrew    | 0.923      |
+| _max_obs        | 47.1       |
+| _mean_act       | 0.00825322 |
+| _mean_adv       | 5.75e-17   |
+| _mean_discrew   | 0.277      |
+| _mean_obs       | -0.000485  |
+| _min_adv        | -10.6      |
+| _min_discrew    | 7.06e-05   |
+| _min_obs        | -33.4      |
+| _std_act        | 0.407856   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0289     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 2
+Draw Samples..
+--------------------------------
+| Beta            | 1          |
+| ExplainedVarNew | 0.734      |
+| ExplainedVarOld | 0.622      |
+| KL              | 0.00592216 |
+| Phi_loss        | 95.1823    |
+| PolicyEntropy   | 15.5996    |
+| PolicyLoss      | -0.205318  |
+| Steps           | 10016      |
+| VarFuncLoss     | 0.0077     |
+| _MeanReward     | 103        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.73423    |
+| _max_adv        | 7.6        |
+| _max_discrew    | 1.14       |
+| _max_obs        | 40.4       |
+| _mean_act       | 0.0013879  |
+| _mean_adv       | -2.84e-18  |
+| _mean_discrew   | 0.278      |
+| _mean_obs       | -0.000442  |
+| _min_adv        | -3.34      |
+| _min_discrew    | 0.0101     |
+| _min_obs        | -29.7      |
+| _std_act        | 0.406557   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0293     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 3
+Draw Samples..
+--------------------------------
+| Beta            | 1.5        |
+| ExplainedVarNew | 0.748      |
+| ExplainedVarOld | 0.698      |
+| KL              | 0.014136   |
+| Phi_loss        | 80420.1    |
+| PolicyEntropy   | 15.5842    |
+| PolicyLoss      | -285.609   |
+| Steps           | 10015      |
+| VarFuncLoss     | 0.00739    |
+| _MeanReward     | 100        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.08798    |
+| _max_adv        | 5.11       |
+| _max_discrew    | 0.881      |
+| _max_obs        | 30.6       |
+| _mean_act       | 0.00275452 |
+| _mean_adv       | 7.09e-18   |
+| _mean_discrew   | 0.27       |
+| _mean_obs       | -0.000708  |
+| _min_adv        | -3.71      |
+| _min_discrew    | 0.00959    |
+| _min_obs        | -26.5      |
+| _std_act        | 0.403833   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0264     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 4
+Draw Samples..
+--------------------------------
+| Beta            | 1.5        |
+| ExplainedVarNew | 0.774      |
+| ExplainedVarOld | 0.72       |
+| KL              | 0.0029499  |
+| Phi_loss        | 102.338    |
+| PolicyEntropy   | 15.5714    |
+| PolicyLoss      | 0.00553592 |
+| Steps           | 10015      |
+| VarFuncLoss     | 0.00598    |
+| _MeanReward     | 103        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.89124    |
+| _max_adv        | 5          |
+| _max_discrew    | 1.02       |
+| _max_obs        | 45.7       |
+| _mean_act       | 0.00427897 |
+| _mean_adv       | 1.7e-17    |
+| _mean_discrew   | 0.278      |
+| _mean_obs       | 0.000347   |
+| _min_adv        | -4.57      |
+| _min_discrew    | -0.0179    |
+| _min_obs        | -57        |
+| _std_act        | 0.406703   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0291     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 5
+Draw Samples..
+---------------------------------
+| Beta            | 1           |
+| ExplainedVarNew | 0.767       |
+| ExplainedVarOld | 0.728       |
+| KL              | 0.000161829 |
+| Phi_loss        | 103.259     |
+| PolicyEntropy   | 15.5696     |
+| PolicyLoss      | 0.000251922 |
+| Steps           | 10015       |
+| VarFuncLoss     | 0.00679     |
+| _MeanReward     | 102         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.22707     |
+| _max_adv        | 6.28        |
+| _max_discrew    | 1.04        |
+| _max_obs        | 35.9        |
+| _mean_act       | 0.00397815  |
+| _mean_adv       | 1.7e-17     |
+| _mean_discrew   | 0.275       |
+| _mean_obs       | -0.00024    |
+| _min_adv        | -3.46       |
+| _min_discrew    | 0.00718     |
+| _min_obs        | -28.7       |
+| _std_act        | 0.405628    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0272      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 6
+Draw Samples..
+---------------------------------
+| Beta            | 0.667       |
+| ExplainedVarNew | 0.786       |
+| ExplainedVarOld | 0.747       |
+| KL              | 0.000212613 |
+| Phi_loss        | 103.527     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00113591 |
+| Steps           | 10008       |
+| VarFuncLoss     | 0.00583     |
+| _MeanReward     | 103         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.89541     |
+| _max_adv        | 5.04        |
+| _max_discrew    | 0.976       |
+| _max_obs        | 33.4        |
+| _mean_act       | 0.0011812   |
+| _mean_adv       | -9.94e-18   |
+| _mean_discrew   | 0.276       |
+| _mean_obs       | 1.96e-05    |
+| _min_adv        | -4.17       |
+| _min_discrew    | 0.00553     |
+| _min_obs        | -32.9       |
+| _std_act        | 0.404248    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0276      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 7
+Draw Samples..
+---------------------------------
+| Beta            | 0.444       |
+| ExplainedVarNew | 0.786       |
+| ExplainedVarOld | 0.754       |
+| KL              | 0.000379666 |
+| Phi_loss        | 101.709     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00195858 |
+| Steps           | 10008       |
+| VarFuncLoss     | 0.00594     |
+| _MeanReward     | 108         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.75742     |
+| _max_adv        | 6.95        |
+| _max_discrew    | 1.41        |
+| _max_obs        | 45          |
+| _mean_act       | 0.00970435  |
+| _mean_adv       | -5.68e-18   |
+| _mean_discrew   | 0.295       |
+| _mean_obs       | 0.000665    |
+| _min_adv        | -3.21       |
+| _min_discrew    | 0.00621     |
+| _min_obs        | -29.5       |
+| _std_act        | 0.405486    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0347      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 8
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.759       |
+| ExplainedVarOld | 0.692       |
+| KL              | 0.000899902 |
+| Phi_loss        | 101.586     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.0054806  |
+| Steps           | 10016       |
+| VarFuncLoss     | 0.00839     |
+| _MeanReward     | 111         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.75987     |
+| _max_adv        | 5.81        |
+| _max_discrew    | 1.22        |
+| _max_obs        | 37.5        |
+| _mean_act       | 0.0079302   |
+| _mean_adv       | -5.68e-18   |
+| _mean_discrew   | 0.302       |
+| _mean_obs       | 0.00117     |
+| _min_adv        | -5.5        |
+| _min_discrew    | -0.00784    |
+| _min_obs        | -24.9       |
+| _std_act        | 0.409754    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.035       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 9
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.739       |
+| ExplainedVarOld | 0.694       |
+| KL              | 0.00129769  |
+| Phi_loss        | 97.7247     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00277056 |
+| Steps           | 10024       |
+| VarFuncLoss     | 0.00918     |
+| _MeanReward     | 111         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.86758     |
+| _max_adv        | 5.35        |
+| _max_discrew    | 1.06        |
+| _max_obs        | 41.6        |
+| _mean_act       | 0.010111    |
+| _mean_adv       | -1.13e-17   |
+| _mean_discrew   | 0.303       |
+| _mean_obs       | 0.000649    |
+| _min_adv        | -3.93       |
+| _min_discrew    | 0.00303     |
+| _min_obs        | -40.3       |
+| _std_act        | 0.408528    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0351      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 10
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.752       |
+| ExplainedVarOld | 0.698       |
+| KL              | 0.00202072  |
+| Phi_loss        | 93.5672     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | 0.000327606 |
+| Steps           | 10011       |
+| VarFuncLoss     | 0.00872     |
+| _MeanReward     | 114         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.35043     |
+| _max_adv        | 5.48        |
+| _max_discrew    | 1.12        |
+| _max_obs        | 28.5        |
+| _mean_act       | 0.00836492  |
+| _mean_adv       | -2.98e-17   |
+| _mean_discrew   | 0.312       |
+| _mean_obs       | 0.00122     |
+| _min_adv        | -3.05       |
+| _min_discrew    | 0.00731     |
+| _min_obs        | -22         |
+| _std_act        | 0.408729    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0375      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 11
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.755       |
+| ExplainedVarOld | 0.698       |
+| KL              | 0.00251921  |
+| Phi_loss        | 95.5176     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00244232 |
+| Steps           | 10020       |
+| VarFuncLoss     | 0.0092      |
+| _MeanReward     | 119         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.98741     |
+| _max_adv        | 5.51        |
+| _max_discrew    | 1.33        |
+| _max_obs        | 35.4        |
+| _mean_act       | 0.0131162   |
+| _mean_adv       | 2.98e-17    |
+| _mean_discrew   | 0.326       |
+| _mean_obs       | 0.000767    |
+| _min_adv        | -3.16       |
+| _min_discrew    | 0.00275     |
+| _min_obs        | -26.2       |
+| _std_act        | 0.409146    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0414      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 12
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.733       |
+| ExplainedVarOld | 0.674       |
+| KL              | 0.00210846  |
+| Phi_loss        | 96.9485     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00571951 |
+| Steps           | 10011       |
+| VarFuncLoss     | 0.0111      |
+| _MeanReward     | 118         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.12205     |
+| _max_adv        | 5.4         |
+| _max_discrew    | 1.37        |
+| _max_obs        | 29.6        |
+| _mean_act       | 0.0144503   |
+| _mean_adv       | 1.14e-17    |
+| _mean_discrew   | 0.322       |
+| _mean_obs       | 0.00155     |
+| _min_adv        | -3.13       |
+| _min_discrew    | 0.00408     |
+| _min_obs        | -33.5       |
+| _std_act        | 0.408447    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0401      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 13
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.751       |
+| ExplainedVarOld | 0.678       |
+| KL              | 0.0021654   |
+| Phi_loss        | 89.6347     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00264216 |
+| Steps           | 10001       |
+| VarFuncLoss     | 0.00999     |
+| _MeanReward     | 123         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.26046     |
+| _max_adv        | 6.17        |
+| _max_discrew    | 1.6         |
+| _max_obs        | 48.7        |
+| _mean_act       | 0.016711    |
+| _mean_adv       | -3.98e-17   |
+| _mean_discrew   | 0.342       |
+| _mean_obs       | 0.00168     |
+| _min_adv        | -2.94       |
+| _min_discrew    | 0.00835     |
+| _min_obs        | -30         |
+| _std_act        | 0.411289    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0503      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 14
+Draw Samples..
+-------------------------------
+| Beta            | 0.198     |
+| ExplainedVarNew | 0.726     |
+| ExplainedVarOld | 0.631     |
+| KL              | 0.0022457 |
+| Phi_loss        | 84.5399   |
+| PolicyEntropy   | 15.5694   |
+| PolicyLoss      | 0.0015591 |
+| Steps           | 10010     |
+| VarFuncLoss     | 0.0138    |
+| _MeanReward     | 131       |
+| _lr_multiplier  | 1         |
+| _max_act        | 3.06238   |
+| _max_adv        | 5.87      |
+| _max_discrew    | 1.42      |
+| _max_obs        | 32.4      |
+| _mean_act       | 0.0171542 |
+| _mean_adv       | -2.56e-17 |
+| _mean_discrew   | 0.357     |
+| _mean_obs       | 0.00148   |
+| _min_adv        | -3.62     |
+| _min_discrew    | 0.0087    |
+| _min_obs        | -25.8     |
+| _std_act        | 0.412387  |
+| _std_adv        | 1         |
+| _std_discrew    | 0.0493    |
+-------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 15
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.747       |
+| ExplainedVarOld | 0.67        |
+| KL              | 0.00262291  |
+| Phi_loss        | 91.0773     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00293917 |
+| Steps           | 10019       |
+| VarFuncLoss     | 0.0124      |
+| _MeanReward     | 136         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.91342     |
+| _max_adv        | 4.34        |
+| _max_discrew    | 1.37        |
+| _max_obs        | 64.6        |
+| _mean_act       | 0.0249078   |
+| _mean_adv       | -9.93e-18   |
+| _mean_discrew   | 0.374       |
+| _mean_obs       | 0.00294     |
+| _min_adv        | -4.95       |
+| _min_discrew    | 0.00846     |
+| _min_obs        | -33.3       |
+| _std_act        | 0.416864    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0558      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 16
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.735       |
+| ExplainedVarOld | 0.65        |
+| KL              | 0.00311712  |
+| Phi_loss        | 90.8223     |
+| PolicyEntropy   | 15.5694     |
+| PolicyLoss      | -0.00167662 |
+| Steps           | 10014       |
+| VarFuncLoss     | 0.0148      |
+| _MeanReward     | 136         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.20159     |
+| _max_adv        | 5.51        |
+| _max_discrew    | 1.54        |
+| _max_obs        | 39.2        |
+| _mean_act       | 0.0237509   |
+| _mean_adv       | -1.42e-18   |
+| _mean_discrew   | 0.373       |
+| _mean_obs       | 0.00359     |
+| _min_adv        | -3.5        |
+| _min_discrew    | 0.00225     |
+| _min_obs        | -33.7       |
+| _std_act        | 0.412334    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0565      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 17
+Draw Samples..
+----------------------------------
+| Beta            | 0.198        |
+| ExplainedVarNew | 0.751        |
+| ExplainedVarOld | 0.658        |
+| KL              | 0.00243815   |
+| Phi_loss        | 82.6971      |
+| PolicyEntropy   | 15.5694      |
+| PolicyLoss      | -0.000564125 |
+| Steps           | 10012        |
+| VarFuncLoss     | 0.014        |
+| _MeanReward     | 143          |
+| _lr_multiplier  | 1            |
+| _max_act        | 3.14207      |
+| _max_adv        | 5.12         |
+| _max_discrew    | 1.34         |
+| _max_obs        | 38.2         |
+| _mean_act       | 0.0318732    |
+| _mean_adv       | -1.99e-17    |
+| _mean_discrew   | 0.393        |
+| _mean_obs       | 0.0035       |
+| _min_adv        | -3.81        |
+| _min_discrew    | 0.00131      |
+| _min_obs        | -36.9        |
+| _std_act        | 0.412735     |
+| _std_adv        | 1            |
+| _std_discrew    | 0.063        |
+----------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 18
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.736       |
+| ExplainedVarOld | 0.637       |
+| KL              | 0.00309229  |
+| Phi_loss        | 91.1001     |
+| PolicyEntropy   | 15.5693     |
+| PolicyLoss      | -0.00343914 |
+| Steps           | 10050       |
+| VarFuncLoss     | 0.0166      |
+| _MeanReward     | 150         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.11        |
+| _max_adv        | 4.83        |
+| _max_discrew    | 1.53        |
+| _max_obs        | 34.8        |
+| _mean_act       | 0.0314943   |
+| _mean_adv       | 3.11e-17    |
+| _mean_discrew   | 0.417       |
+| _mean_obs       | 0.00315     |
+| _min_adv        | -3.61       |
+| _min_discrew    | 0.0102      |
+| _min_obs        | -28.4       |
+| _std_act        | 0.416824    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0719      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 19
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.725      |
+| ExplainedVarOld | 0.626      |
+| KL              | 0.00266914 |
+| Phi_loss        | 90.0976    |
+| PolicyEntropy   | 15.5693    |
+| PolicyLoss      | 0.00254567 |
+| Steps           | 10000      |
+| VarFuncLoss     | 0.0198     |
+| _MeanReward     | 159        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.90328    |
+| _max_adv        | 5.07       |
+| _max_discrew    | 1.77       |
+| _max_obs        | 44.2       |
+| _mean_act       | 0.0353642  |
+| _mean_adv       | -2.84e-18  |
+| _mean_discrew   | 0.436      |
+| _mean_obs       | 0.00396    |
+| _min_adv        | -3.83      |
+| _min_discrew    | -0.00151   |
+| _min_obs        | -29        |
+| _std_act        | 0.416981   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0761     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 20
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.736       |
+| ExplainedVarOld | 0.619       |
+| KL              | 0.00295884  |
+| Phi_loss        | 85.1027     |
+| PolicyEntropy   | 15.5693     |
+| PolicyLoss      | 0.000846592 |
+| Steps           | 10013       |
+| VarFuncLoss     | 0.0201      |
+| _MeanReward     | 157         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.23596     |
+| _max_adv        | 4.28        |
+| _max_discrew    | 1.69        |
+| _max_obs        | 38.1        |
+| _mean_act       | 0.0357598   |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.441       |
+| _mean_obs       | 0.00405     |
+| _min_adv        | -3.79       |
+| _min_discrew    | 0.0106      |
+| _min_obs        | -43.3       |
+| _std_act        | 0.41505     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0844      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 21
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.721      |
+| ExplainedVarOld | 0.593      |
+| KL              | 0.00365893 |
+| Phi_loss        | 88.4521    |
+| PolicyEntropy   | 15.5692    |
+| PolicyLoss      | 0.00103591 |
+| Steps           | 10044      |
+| VarFuncLoss     | 0.0237     |
+| _MeanReward     | 162        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.10245    |
+| _max_adv        | 4.72       |
+| _max_discrew    | 1.87       |
+| _max_obs        | 50.6       |
+| _mean_act       | 0.0402851  |
+| _mean_adv       | -5.66e-18  |
+| _mean_discrew   | 0.45       |
+| _mean_obs       | 0.00428    |
+| _min_adv        | -4         |
+| _min_discrew    | 0.00863    |
+| _min_obs        | -30.5      |
+| _std_act        | 0.420886   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0854     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 22
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.755       |
+| ExplainedVarOld | 0.613       |
+| KL              | 0.00384254  |
+| Phi_loss        | 85.3799     |
+| PolicyEntropy   | 15.5692     |
+| PolicyLoss      | -0.00313214 |
+| Steps           | 10027       |
+| VarFuncLoss     | 0.021       |
+| _MeanReward     | 168         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.24149     |
+| _max_adv        | 4.23        |
+| _max_discrew    | 1.54        |
+| _max_obs        | 25.5        |
+| _mean_act       | 0.0402215   |
+| _mean_adv       | -1.13e-17   |
+| _mean_discrew   | 0.459       |
+| _mean_obs       | 0.00416     |
+| _min_adv        | -4.57       |
+| _min_discrew    | -0.00527    |
+| _min_obs        | -28.1       |
+| _std_act        | 0.418994    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.0831      |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 23
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.75       |
+| ExplainedVarOld | 0.631      |
+| KL              | 0.0031336  |
+| Phi_loss        | 88.78      |
+| PolicyEntropy   | 15.5691    |
+| PolicyLoss      | 0.00216783 |
+| Steps           | 10019      |
+| VarFuncLoss     | 0.0208     |
+| _MeanReward     | 177        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.03138    |
+| _max_adv        | 5.1        |
+| _max_discrew    | 1.77       |
+| _max_obs        | 27.4       |
+| _mean_act       | 0.0445955  |
+| _mean_adv       | 5.67e-18   |
+| _mean_discrew   | 0.487      |
+| _mean_obs       | 0.00576    |
+| _min_adv        | -3.76      |
+| _min_discrew    | 0.0136     |
+| _min_obs        | -31.6      |
+| _std_act        | 0.417543   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.0969     |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 24
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.736      |
+| ExplainedVarOld | 0.607      |
+| KL              | 0.00392748 |
+| Phi_loss        | 90.7752    |
+| PolicyEntropy   | 15.5691    |
+| PolicyLoss      | -0.033139  |
+| Steps           | 10019      |
+| VarFuncLoss     | 0.0257     |
+| _MeanReward     | 177        |
+| _lr_multiplier  | 1          |
+| _max_act        | 4.15564    |
+| _max_adv        | 4.02       |
+| _max_discrew    | 1.82       |
+| _max_obs        | 42.2       |
+| _mean_act       | 0.0452502  |
+| _mean_adv       | -8.51e-18  |
+| _mean_discrew   | 0.492      |
+| _mean_obs       | 0.005      |
+| _min_adv        | -4.25      |
+| _min_discrew    | 0.0101     |
+| _min_obs        | -26.4      |
+| _std_act        | 0.419138   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.102      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 25
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.75        |
+| ExplainedVarOld | 0.605       |
+| KL              | 0.00314801  |
+| Phi_loss        | 82.1839     |
+| PolicyEntropy   | 15.5691     |
+| PolicyLoss      | -0.00255868 |
+| Steps           | 10027       |
+| VarFuncLoss     | 0.0254      |
+| _MeanReward     | 182         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.13039     |
+| _max_adv        | 5.01        |
+| _max_discrew    | 2.06        |
+| _max_obs        | 42.5        |
+| _mean_act       | 0.0498626   |
+| _mean_adv       | 2.83e-17    |
+| _mean_discrew   | 0.512       |
+| _mean_obs       | 0.00607     |
+| _min_adv        | -3.69       |
+| _min_discrew    | 0.0136      |
+| _min_obs        | -46.4       |
+| _std_act        | 0.42033     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.116       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 26
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.718      |
+| ExplainedVarOld | 0.538      |
+| KL              | 0.00272089 |
+| Phi_loss        | 82.725     |
+| PolicyEntropy   | 15.569     |
+| PolicyLoss      | 0.00130719 |
+| Steps           | 10014      |
+| VarFuncLoss     | 0.0328     |
+| _MeanReward     | 204        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.00879    |
+| _max_adv        | 5.18       |
+| _max_discrew    | 2          |
+| _max_obs        | 27.7       |
+| _mean_act       | 0.0531812  |
+| _mean_adv       | 1.42e-17   |
+| _mean_discrew   | 0.546      |
+| _mean_obs       | 0.00631    |
+| _min_adv        | -4.26      |
+| _min_discrew    | 0.00156    |
+| _min_obs        | -25.2      |
+| _std_act        | 0.422047   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.114      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 27
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.756       |
+| ExplainedVarOld | 0.609       |
+| KL              | 0.00319938  |
+| Phi_loss        | 85.4709     |
+| PolicyEntropy   | 15.569      |
+| PolicyLoss      | -0.00320633 |
+| Steps           | 10013       |
+| VarFuncLoss     | 0.0278      |
+| _MeanReward     | 207         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.13402     |
+| _max_adv        | 4.8         |
+| _max_discrew    | 2.1         |
+| _max_obs        | 38.4        |
+| _mean_act       | 0.0571543   |
+| _mean_adv       | 2.55e-17    |
+| _mean_discrew   | 0.558       |
+| _mean_obs       | 0.00645     |
+| _min_adv        | -3.77       |
+| _min_discrew    | -0.00196    |
+| _min_obs        | -26.9       |
+| _std_act        | 0.421593    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.122       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 28
+Draw Samples..
+----------------------------------
+| Beta            | 0.198        |
+| ExplainedVarNew | 0.765        |
+| ExplainedVarOld | 0.624        |
+| KL              | 0.00302224   |
+| Phi_loss        | 83.2202      |
+| PolicyEntropy   | 15.569       |
+| PolicyLoss      | -9.33282e-05 |
+| Steps           | 10027        |
+| VarFuncLoss     | 0.0287       |
+| _MeanReward     | 206          |
+| _lr_multiplier  | 1            |
+| _max_act        | 2.91682      |
+| _max_adv        | 5.55         |
+| _max_discrew    | 1.77         |
+| _max_obs        | 60.1         |
+| _mean_act       | 0.0586371    |
+| _mean_adv       | 0            |
+| _mean_discrew   | 0.552        |
+| _mean_obs       | 0.00623      |
+| _min_adv        | -4.75        |
+| _min_discrew    | -0.0116      |
+| _min_obs        | -39.9        |
+| _std_act        | 0.422234     |
+| _std_adv        | 1            |
+| _std_discrew    | 0.116        |
+----------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 29
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.781       |
+| ExplainedVarOld | 0.651       |
+| KL              | 0.0036592   |
+| Phi_loss        | 90.9888     |
+| PolicyEntropy   | 15.5689     |
+| PolicyLoss      | -0.00265426 |
+| Steps           | 10005       |
+| VarFuncLoss     | 0.0254      |
+| _MeanReward     | 213         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.25069     |
+| _max_adv        | 5.54        |
+| _max_discrew    | 1.81        |
+| _max_obs        | 34.5        |
+| _mean_act       | 0.0615439   |
+| _mean_adv       | 1.14e-17    |
+| _mean_discrew   | 0.567       |
+| _mean_obs       | 0.00608     |
+| _min_adv        | -4.65       |
+| _min_discrew    | 0.000844    |
+| _min_obs        | -24.1       |
+| _std_act        | 0.422732    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.121       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 30
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.779       |
+| ExplainedVarOld | 0.658       |
+| KL              | 0.00277708  |
+| Phi_loss        | 81.3951     |
+| PolicyEntropy   | 15.5689     |
+| PolicyLoss      | -0.00458849 |
+| Steps           | 10001       |
+| VarFuncLoss     | 0.0268      |
+| _MeanReward     | 225         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.93413     |
+| _max_adv        | 5.38        |
+| _max_discrew    | 1.98        |
+| _max_obs        | 21.3        |
+| _mean_act       | 0.0667476   |
+| _mean_adv       | -2.56e-17   |
+| _mean_discrew   | 0.604       |
+| _mean_obs       | 0.00693     |
+| _min_adv        | -4.14       |
+| _min_discrew    | 0.0102      |
+| _min_obs        | -26.5       |
+| _std_act        | 0.421799    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.139       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 31
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.779       |
+| ExplainedVarOld | 0.634       |
+| KL              | 0.0028078   |
+| Phi_loss        | 78.2482     |
+| PolicyEntropy   | 15.5689     |
+| PolicyLoss      | -0.00849174 |
+| Steps           | 10010       |
+| VarFuncLoss     | 0.0308      |
+| _MeanReward     | 223         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.90003     |
+| _max_adv        | 4.32        |
+| _max_discrew    | 2.01        |
+| _max_obs        | 33.2        |
+| _mean_act       | 0.0669656   |
+| _mean_adv       | -2.41e-17   |
+| _mean_discrew   | 0.603       |
+| _mean_obs       | 0.00715     |
+| _min_adv        | -4.51       |
+| _min_discrew    | 0.0116      |
+| _min_obs        | -27.9       |
+| _std_act        | 0.420304    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.146       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 32
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.756       |
+| ExplainedVarOld | 0.605       |
+| KL              | 0.00267287  |
+| Phi_loss        | 78.5909     |
+| PolicyEntropy   | 15.5689     |
+| PolicyLoss      | -0.00303963 |
+| Steps           | 10012       |
+| VarFuncLoss     | 0.0358      |
+| _MeanReward     | 231         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.66228     |
+| _max_adv        | 4.83        |
+| _max_discrew    | 1.97        |
+| _max_obs        | 44.1        |
+| _mean_act       | 0.0691097   |
+| _mean_adv       | 2.84e-17    |
+| _mean_discrew   | 0.62        |
+| _mean_obs       | 0.00745     |
+| _min_adv        | -4.67       |
+| _min_discrew    | 0.014       |
+| _min_obs        | -29.8       |
+| _std_act        | 0.423802    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.143       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 33
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.784       |
+| ExplainedVarOld | 0.628       |
+| KL              | 0.00275765  |
+| Phi_loss        | 75.2184     |
+| PolicyEntropy   | 15.5688     |
+| PolicyLoss      | -0.00313746 |
+| Steps           | 10023       |
+| VarFuncLoss     | 0.0309      |
+| _MeanReward     | 235         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.15398     |
+| _max_adv        | 4.85        |
+| _max_discrew    | 2.12        |
+| _max_obs        | 22.8        |
+| _mean_act       | 0.073585    |
+| _mean_adv       | 1.28e-17    |
+| _mean_discrew   | 0.629       |
+| _mean_obs       | 0.0075      |
+| _min_adv        | -4.53       |
+| _min_discrew    | 0.0156      |
+| _min_obs        | -20.6       |
+| _std_act        | 0.422034    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.148       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 34
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.79        |
+| ExplainedVarOld | 0.648       |
+| KL              | 0.00303481  |
+| Phi_loss        | 77.0048     |
+| PolicyEntropy   | 15.5688     |
+| PolicyLoss      | -0.00962291 |
+| Steps           | 10044       |
+| VarFuncLoss     | 0.0312      |
+| _MeanReward     | 242         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.52366     |
+| _max_adv        | 4.19        |
+| _max_discrew    | 2.12        |
+| _max_obs        | 30.1        |
+| _mean_act       | 0.0753246   |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.645       |
+| _mean_obs       | 0.00713     |
+| _min_adv        | -4.48       |
+| _min_discrew    | -0.0208     |
+| _min_obs        | -38.3       |
+| _std_act        | 0.423546    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.157       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 35
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.793      |
+| ExplainedVarOld | 0.647      |
+| KL              | 0.00248403 |
+| Phi_loss        | 74.1677    |
+| PolicyEntropy   | 15.5688    |
+| PolicyLoss      | 0.00111575 |
+| Steps           | 10033      |
+| VarFuncLoss     | 0.0325     |
+| _MeanReward     | 234        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.00422    |
+| _max_adv        | 4.59       |
+| _max_discrew    | 2.17       |
+| _max_obs        | 26.6       |
+| _mean_act       | 0.0718061  |
+| _mean_adv       | 0          |
+| _mean_discrew   | 0.628      |
+| _mean_obs       | 0.00631    |
+| _min_adv        | -4.05      |
+| _min_discrew    | 0.0152     |
+| _min_obs        | -20.5      |
+| _std_act        | 0.421434   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.158      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 36
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.791       |
+| ExplainedVarOld | 0.634       |
+| KL              | 0.0025789   |
+| Phi_loss        | 67.5796     |
+| PolicyEntropy   | 15.5687     |
+| PolicyLoss      | -0.00429712 |
+| Steps           | 10020       |
+| VarFuncLoss     | 0.0331      |
+| _MeanReward     | 249         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.28461     |
+| _max_adv        | 4.89        |
+| _max_discrew    | 1.94        |
+| _max_obs        | 25.2        |
+| _mean_act       | 0.0763328   |
+| _mean_adv       | 1.7e-17     |
+| _mean_discrew   | 0.645       |
+| _mean_obs       | 0.0073      |
+| _min_adv        | -5.14       |
+| _min_discrew    | 0.0144      |
+| _min_obs        | -25.2       |
+| _std_act        | 0.424674    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.148       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 37
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.811      |
+| ExplainedVarOld | 0.666      |
+| KL              | 0.00285089 |
+| Phi_loss        | 71.1726    |
+| PolicyEntropy   | 15.5685    |
+| PolicyLoss      | 0.00474064 |
+| Steps           | 10003      |
+| VarFuncLoss     | 0.0281     |
+| _MeanReward     | 254        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.88746    |
+| _max_adv        | 4.5        |
+| _max_discrew    | 1.86       |
+| _max_obs        | 27.7       |
+| _mean_act       | 0.0778404  |
+| _mean_adv       | 1.7e-17    |
+| _mean_discrew   | 0.662      |
+| _mean_obs       | 0.00822    |
+| _min_adv        | -4.54      |
+| _min_discrew    | 0.0101     |
+| _min_obs        | -21        |
+| _std_act        | 0.423485   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.156      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 38
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.817       |
+| ExplainedVarOld | 0.664       |
+| KL              | 0.00338724  |
+| Phi_loss        | 65.2089     |
+| PolicyEntropy   | 15.5684     |
+| PolicyLoss      | -0.00588157 |
+| Steps           | 10016       |
+| VarFuncLoss     | 0.0286      |
+| _MeanReward     | 261         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.11603     |
+| _max_adv        | 4.26        |
+| _max_discrew    | 1.96        |
+| _max_obs        | 24.6        |
+| _mean_act       | 0.075003    |
+| _mean_adv       | 1.28e-17    |
+| _mean_discrew   | 0.68        |
+| _mean_obs       | 0.00665     |
+| _min_adv        | -4.92       |
+| _min_discrew    | 0.00707     |
+| _min_obs        | -22.2       |
+| _std_act        | 0.425814    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.162       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 39
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.817       |
+| ExplainedVarOld | 0.666       |
+| KL              | 0.00283556  |
+| Phi_loss        | 62.5224     |
+| PolicyEntropy   | 15.5684     |
+| PolicyLoss      | -0.00232793 |
+| Steps           | 10037       |
+| VarFuncLoss     | 0.0296      |
+| _MeanReward     | 265         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.93609     |
+| _max_adv        | 4.51        |
+| _max_discrew    | 2.57        |
+| _max_obs        | 25.2        |
+| _mean_act       | 0.0822886   |
+| _mean_adv       | 4.96e-18    |
+| _mean_discrew   | 0.691       |
+| _mean_obs       | 0.00756     |
+| _min_adv        | -4.77       |
+| _min_discrew    | 0.0136      |
+| _min_obs        | -21.8       |
+| _std_act        | 0.422538    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.18        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 40
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.817       |
+| ExplainedVarOld | 0.65        |
+| KL              | 0.003351    |
+| Phi_loss        | 66.0318     |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | -0.00968947 |
+| Steps           | 10017       |
+| VarFuncLoss     | 0.0329      |
+| _MeanReward     | 279         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.97397     |
+| _max_adv        | 4.75        |
+| _max_discrew    | 2.16        |
+| _max_obs        | 31.8        |
+| _mean_act       | 0.0819481   |
+| _mean_adv       | -7.09e-18   |
+| _mean_discrew   | 0.711       |
+| _mean_obs       | 0.00693     |
+| _min_adv        | -4.34       |
+| _min_discrew    | 0.0094      |
+| _min_obs        | -22.2       |
+| _std_act        | 0.425151    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.179       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 41
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.84        |
+| ExplainedVarOld | 0.691       |
+| KL              | 0.00302487  |
+| Phi_loss        | 66.4988     |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | 0.000190629 |
+| Steps           | 10037       |
+| VarFuncLoss     | 0.0285      |
+| _MeanReward     | 274         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.91131     |
+| _max_adv        | 4.07        |
+| _max_discrew    | 2.25        |
+| _max_obs        | 21.3        |
+| _mean_act       | 0.0896537   |
+| _mean_adv       | -2.55e-17   |
+| _mean_discrew   | 0.707       |
+| _mean_obs       | 0.00745     |
+| _min_adv        | -4.61       |
+| _min_discrew    | 0.0151      |
+| _min_obs        | -21.2       |
+| _std_act        | 0.424086    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.177       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 42
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.811       |
+| ExplainedVarOld | 0.629       |
+| KL              | 0.00351986  |
+| Phi_loss        | 67.8217     |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | -0.00288479 |
+| Steps           | 10002       |
+| VarFuncLoss     | 0.0335      |
+| _MeanReward     | 273         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.05505     |
+| _max_adv        | 5.58        |
+| _max_discrew    | 2.01        |
+| _max_obs        | 26.7        |
+| _mean_act       | 0.0862736   |
+| _mean_adv       | 1.7e-17     |
+| _mean_discrew   | 0.698       |
+| _mean_obs       | 0.00651     |
+| _min_adv        | -4.31       |
+| _min_discrew    | 0.0135      |
+| _min_obs        | -23         |
+| _std_act        | 0.421606    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.169       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 43
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.84        |
+| ExplainedVarOld | 0.684       |
+| KL              | 0.00364888  |
+| Phi_loss        | 68.884      |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | 0.000217448 |
+| Steps           | 10011       |
+| VarFuncLoss     | 0.0269      |
+| _MeanReward     | 274         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.99451     |
+| _max_adv        | 4.57        |
+| _max_discrew    | 2.1         |
+| _max_obs        | 25.3        |
+| _mean_act       | 0.0878452   |
+| _mean_adv       | -2.27e-17   |
+| _mean_discrew   | 0.704       |
+| _mean_obs       | 0.00691     |
+| _min_adv        | -4.94       |
+| _min_discrew    | 0.0113      |
+| _min_obs        | -19         |
+| _std_act        | 0.423007    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.171       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 44
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.835       |
+| ExplainedVarOld | 0.685       |
+| KL              | 0.00313429  |
+| Phi_loss        | 68.9257     |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | -0.00778686 |
+| Steps           | 10036       |
+| VarFuncLoss     | 0.0285      |
+| _MeanReward     | 269         |
+| _lr_multiplier  | 1           |
+| _max_act        | 4.07725     |
+| _max_adv        | 5.78        |
+| _max_discrew    | 2.05        |
+| _max_obs        | 28.7        |
+| _mean_act       | 0.0879791   |
+| _mean_adv       | -1.42e-17   |
+| _mean_discrew   | 0.696       |
+| _mean_obs       | 0.00625     |
+| _min_adv        | -4.34       |
+| _min_discrew    | 0.0142      |
+| _min_obs        | -22.7       |
+| _std_act        | 0.42362     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.171       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 45
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.817       |
+| ExplainedVarOld | 0.655       |
+| KL              | 0.00254232  |
+| Phi_loss        | 66.6239     |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | -0.00352663 |
+| Steps           | 10029       |
+| VarFuncLoss     | 0.0315      |
+| _MeanReward     | 298         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.11682     |
+| _max_adv        | 4.1         |
+| _max_discrew    | 2.37        |
+| _max_obs        | 26.6        |
+| _mean_act       | 0.0942184   |
+| _mean_adv       | 3.12e-17    |
+| _mean_discrew   | 0.765       |
+| _mean_obs       | 0.00803     |
+| _min_adv        | -4.08       |
+| _min_discrew    | 0.0108      |
+| _min_obs        | -29.5       |
+| _std_act        | 0.419588    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.205       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 46
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.841       |
+| ExplainedVarOld | 0.698       |
+| KL              | 0.00242171  |
+| Phi_loss        | 60.3667     |
+| PolicyEntropy   | 15.5684     |
+| PolicyLoss      | -0.00551583 |
+| Steps           | 10097       |
+| VarFuncLoss     | 0.0328      |
+| _MeanReward     | 289         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.56138     |
+| _max_adv        | 5.61        |
+| _max_discrew    | 2.16        |
+| _max_obs        | 23.6        |
+| _mean_act       | 0.0945242   |
+| _mean_adv       | 4.22e-18    |
+| _mean_discrew   | 0.74        |
+| _mean_obs       | 0.00716     |
+| _min_adv        | -5.05       |
+| _min_discrew    | 0.0177      |
+| _min_obs        | -24.2       |
+| _std_act        | 0.421801    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.192       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 47
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.836       |
+| ExplainedVarOld | 0.677       |
+| KL              | 0.00367404  |
+| Phi_loss        | 63.8836     |
+| PolicyEntropy   | 15.5684     |
+| PolicyLoss      | -0.00505277 |
+| Steps           | 10039       |
+| VarFuncLoss     | 0.0316      |
+| _MeanReward     | 287         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.24574     |
+| _max_adv        | 4.56        |
+| _max_discrew    | 1.98        |
+| _max_obs        | 24.1        |
+| _mean_act       | 0.098645    |
+| _mean_adv       | -2.83e-18   |
+| _mean_discrew   | 0.729       |
+| _mean_obs       | 0.00715     |
+| _min_adv        | -4.76       |
+| _min_discrew    | 0.0108      |
+| _min_obs        | -24.7       |
+| _std_act        | 0.419634    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.18        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 48
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.843       |
+| ExplainedVarOld | 0.709       |
+| KL              | 0.00321475  |
+| Phi_loss        | 60.7785     |
+| PolicyEntropy   | 15.5684     |
+| PolicyLoss      | -0.00178178 |
+| Steps           | 10001       |
+| VarFuncLoss     | 0.0283      |
+| _MeanReward     | 295         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.15896     |
+| _max_adv        | 4.4         |
+| _max_discrew    | 2.39        |
+| _max_obs        | 26.9        |
+| _mean_act       | 0.0924789   |
+| _mean_adv       | -1.42e-18   |
+| _mean_discrew   | 0.74        |
+| _mean_obs       | 0.00579     |
+| _min_adv        | -4.08       |
+| _min_discrew    | 0.0134      |
+| _min_obs        | -18.8       |
+| _std_act        | 0.419624    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.189       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 49
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.849       |
+| ExplainedVarOld | 0.697       |
+| KL              | 0.00304462  |
+| Phi_loss        | 61.8415     |
+| PolicyEntropy   | 15.5683     |
+| PolicyLoss      | -0.00337676 |
+| Steps           | 10036       |
+| VarFuncLoss     | 0.0289      |
+| _MeanReward     | 303         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.49541     |
+| _max_adv        | 4.37        |
+| _max_discrew    | 2.31        |
+| _max_obs        | 23.3        |
+| _mean_act       | 0.099405    |
+| _mean_adv       | 2.27e-17    |
+| _mean_discrew   | 0.763       |
+| _mean_obs       | 0.00648     |
+| _min_adv        | -4.3        |
+| _min_discrew    | 0.0108      |
+| _min_obs        | -25.6       |
+| _std_act        | 0.419027    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.199       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 50
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.86        |
+| ExplainedVarOld | 0.714       |
+| KL              | 0.00344532  |
+| Phi_loss        | 61.3695     |
+| PolicyEntropy   | 15.5682     |
+| PolicyLoss      | -0.00458852 |
+| Steps           | 10029       |
+| VarFuncLoss     | 0.0278      |
+| _MeanReward     | 305         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.05529     |
+| _max_adv        | 4.95        |
+| _max_discrew    | 2.37        |
+| _max_obs        | 27          |
+| _mean_act       | 0.0984527   |
+| _mean_adv       | -2.27e-17   |
+| _mean_discrew   | 0.76        |
+| _mean_obs       | 0.00712     |
+| _min_adv        | -3.89       |
+| _min_discrew    | 0.0163      |
+| _min_obs        | -24.6       |
+| _std_act        | 0.420614    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.196       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 51
+Draw Samples..
+-------------------------------
+| Beta            | 0.296     |
+| ExplainedVarNew | 0.861     |
+| ExplainedVarOld | 0.708     |
+| KL              | 0.0121009 |
+| Phi_loss        | 1530.08   |
+| PolicyEntropy   | 15.5668   |
+| PolicyLoss      | 0.561524  |
+| Steps           | 10060     |
+| VarFuncLoss     | 0.0273    |
+| _MeanReward     | 294       |
+| _lr_multiplier  | 1         |
+| _max_act        | 3.58532   |
+| _max_adv        | 4.34      |
+| _max_discrew    | 2.2       |
+| _max_obs        | 28.6      |
+| _mean_act       | 0.0975075 |
+| _mean_adv       | -5.65e-18 |
+| _mean_discrew   | 0.751     |
+| _mean_obs       | 0.00708   |
+| _min_adv        | -4.82     |
+| _min_discrew    | 0.0165    |
+| _min_obs        | -22       |
+| _std_act        | 0.422625  |
+| _std_adv        | 1         |
+| _std_discrew    | 0.199     |
+-------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 52
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.847       |
+| ExplainedVarOld | 0.694       |
+| KL              | 0.00415675  |
+| Phi_loss        | 92.2899     |
+| PolicyEntropy   | 15.5637     |
+| PolicyLoss      | -0.00275927 |
+| Steps           | 10040       |
+| VarFuncLoss     | 0.0306      |
+| _MeanReward     | 299         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.32352     |
+| _max_adv        | 4.23        |
+| _max_discrew    | 2.6         |
+| _max_obs        | 18.7        |
+| _mean_act       | 0.0964478   |
+| _mean_adv       | 1.7e-17     |
+| _mean_discrew   | 0.757       |
+| _mean_obs       | 0.0076      |
+| _min_adv        | -4.39       |
+| _min_discrew    | 0.014       |
+| _min_obs        | -19         |
+| _std_act        | 0.422393    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.203       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 53
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.856      |
+| ExplainedVarOld | 0.682      |
+| KL              | 0.00120022 |
+| Phi_loss        | 86.3438    |
+| PolicyEntropy   | 15.5633    |
+| PolicyLoss      | 0.00258399 |
+| Steps           | 10057      |
+| VarFuncLoss     | 0.0294     |
+| _MeanReward     | 304        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.08153    |
+| _max_adv        | 4.65       |
+| _max_discrew    | 2.35       |
+| _max_obs        | 30         |
+| _mean_act       | 0.0896025  |
+| _mean_adv       | 2.83e-18   |
+| _mean_discrew   | 0.766      |
+| _mean_obs       | 0.00705    |
+| _min_adv        | -3.83      |
+| _min_discrew    | 0.0122     |
+| _min_obs        | -25.7      |
+| _std_act        | 0.427916   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.21       |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 54
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.833       |
+| ExplainedVarOld | 0.635       |
+| KL              | 0.00277618  |
+| Phi_loss        | 89.9783     |
+| PolicyEntropy   | 15.5632     |
+| PolicyLoss      | -0.00288492 |
+| Steps           | 10007       |
+| VarFuncLoss     | 0.0352      |
+| _MeanReward     | 299         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.12924     |
+| _max_adv        | 4.75        |
+| _max_discrew    | 2.24        |
+| _max_obs        | 26.4        |
+| _mean_act       | 0.0971469   |
+| _mean_adv       | 2.56e-17    |
+| _mean_discrew   | 0.75        |
+| _mean_obs       | 0.00661     |
+| _min_adv        | -4.02       |
+| _min_discrew    | 0.00469     |
+| _min_obs        | -23.6       |
+| _std_act        | 0.422015    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.19        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 55
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.854       |
+| ExplainedVarOld | 0.664       |
+| KL              | 0.00246809  |
+| Phi_loss        | 87.8172     |
+| PolicyEntropy   | 15.5632     |
+| PolicyLoss      | -0.00034097 |
+| Steps           | 10051       |
+| VarFuncLoss     | 0.0279      |
+| _MeanReward     | 306         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.23563     |
+| _max_adv        | 5.22        |
+| _max_discrew    | 2.21        |
+| _max_obs        | 46.1        |
+| _mean_act       | 0.0942222   |
+| _mean_adv       | 2.54e-17    |
+| _mean_discrew   | 0.759       |
+| _mean_obs       | 0.00656     |
+| _min_adv        | -4.29       |
+| _min_discrew    | 0.0106      |
+| _min_obs        | -38.1       |
+| _std_act        | 0.420987    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.191       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 56
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.866      |
+| ExplainedVarOld | 0.712      |
+| KL              | 0.00244875 |
+| Phi_loss        | 90.8936    |
+| PolicyEntropy   | 15.5632    |
+| PolicyLoss      | 0.0203423  |
+| Steps           | 10010      |
+| VarFuncLoss     | 0.0257     |
+| _MeanReward     | 309        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.26873    |
+| _max_adv        | 4          |
+| _max_discrew    | 2.15       |
+| _max_obs        | 27.2       |
+| _mean_act       | 0.100471   |
+| _mean_adv       | -1.14e-17  |
+| _mean_discrew   | 0.768      |
+| _mean_obs       | 0.00608    |
+| _min_adv        | -5.05      |
+| _min_discrew    | 0.0127     |
+| _min_obs        | -28.2      |
+| _std_act        | 0.422309   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.2        |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 57
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.863       |
+| ExplainedVarOld | 0.697       |
+| KL              | 0.00211237  |
+| Phi_loss        | 90.1615     |
+| PolicyEntropy   | 15.5631     |
+| PolicyLoss      | -0.00179238 |
+| Steps           | 10044       |
+| VarFuncLoss     | 0.0276      |
+| _MeanReward     | 309         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.81848     |
+| _max_adv        | 4.72        |
+| _max_discrew    | 2.52        |
+| _max_obs        | 46.8        |
+| _mean_act       | 0.0989571   |
+| _mean_adv       | 2.19e-17    |
+| _mean_discrew   | 0.768       |
+| _mean_obs       | 0.00631     |
+| _min_adv        | -4.28       |
+| _min_discrew    | 0.0145      |
+| _min_obs        | -47         |
+| _std_act        | 0.422514    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.2         |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 58
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.864      |
+| ExplainedVarOld | 0.696      |
+| KL              | 0.00227695 |
+| Phi_loss        | 87.0181    |
+| PolicyEntropy   | 15.5629    |
+| PolicyLoss      | 0.00129295 |
+| Steps           | 10039      |
+| VarFuncLoss     | 0.0273     |
+| _MeanReward     | 322        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.38611    |
+| _max_adv        | 5.39       |
+| _max_discrew    | 2.59       |
+| _max_obs        | 31.5       |
+| _mean_act       | 0.101567   |
+| _mean_adv       | -8.49e-18  |
+| _mean_discrew   | 0.802      |
+| _mean_obs       | 0.0074     |
+| _min_adv        | -4.42      |
+| _min_discrew    | 0.0169     |
+| _min_obs        | -23.3      |
+| _std_act        | 0.420142   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.225      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 59
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.872       |
+| ExplainedVarOld | 0.715       |
+| KL              | 0.00231727  |
+| Phi_loss        | 84.7729     |
+| PolicyEntropy   | 15.5627     |
+| PolicyLoss      | -0.00134019 |
+| Steps           | 10039       |
+| VarFuncLoss     | 0.0289      |
+| _MeanReward     | 316         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.23985     |
+| _max_adv        | 5.47        |
+| _max_discrew    | 2.22        |
+| _max_obs        | 30.2        |
+| _mean_act       | 0.0943886   |
+| _mean_adv       | -1.7e-17    |
+| _mean_discrew   | 0.792       |
+| _mean_obs       | 0.00637     |
+| _min_adv        | -4.94       |
+| _min_discrew    | 0.00885     |
+| _min_obs        | -29         |
+| _std_act        | 0.424001    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.216       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 60
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.861       |
+| ExplainedVarOld | 0.688       |
+| KL              | 0.00261898  |
+| Phi_loss        | 85.6731     |
+| PolicyEntropy   | 15.5626     |
+| PolicyLoss      | -0.00236924 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.0302      |
+| _MeanReward     | 314         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.1386      |
+| _max_adv        | 5.78        |
+| _max_discrew    | 2.26        |
+| _max_obs        | 26          |
+| _mean_act       | 0.0978153   |
+| _mean_adv       | -4.25e-18   |
+| _mean_discrew   | 0.771       |
+| _mean_obs       | 0.00625     |
+| _min_adv        | -4.65       |
+| _min_discrew    | 0.0104      |
+| _min_obs        | -18.9       |
+| _std_act        | 0.425917    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.191       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 61
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.884       |
+| ExplainedVarOld | 0.724       |
+| KL              | 0.00378166  |
+| Phi_loss        | 89.3693     |
+| PolicyEntropy   | 15.5626     |
+| PolicyLoss      | -0.00337674 |
+| Steps           | 10044       |
+| VarFuncLoss     | 0.0221      |
+| _MeanReward     | 312         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.23179     |
+| _max_adv        | 4.92        |
+| _max_discrew    | 2.36        |
+| _max_obs        | 18          |
+| _mean_act       | 0.102428    |
+| _mean_adv       | -1.41e-17   |
+| _mean_discrew   | 0.772       |
+| _mean_obs       | 0.00674     |
+| _min_adv        | -4.42       |
+| _min_discrew    | 0.0164      |
+| _min_obs        | -24.2       |
+| _std_act        | 0.423114    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.206       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 62
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.866       |
+| ExplainedVarOld | 0.68        |
+| KL              | 0.00221901  |
+| Phi_loss        | 89.371      |
+| PolicyEntropy   | 15.5626     |
+| PolicyLoss      | -0.00320142 |
+| Steps           | 10058       |
+| VarFuncLoss     | 0.0277      |
+| _MeanReward     | 325         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.08327     |
+| _max_adv        | 4.91        |
+| _max_discrew    | 2.51        |
+| _max_obs        | 25.5        |
+| _mean_act       | 0.104206    |
+| _mean_adv       | -1.7e-17    |
+| _mean_discrew   | 0.799       |
+| _mean_obs       | 0.006       |
+| _min_adv        | -4.84       |
+| _min_discrew    | 0.0157      |
+| _min_obs        | -24.6       |
+| _std_act        | 0.422343    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.217       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 63
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.876       |
+| ExplainedVarOld | 0.697       |
+| KL              | 0.00205928  |
+| Phi_loss        | 83.1388     |
+| PolicyEntropy   | 15.5627     |
+| PolicyLoss      | -0.00206564 |
+| Steps           | 10015       |
+| VarFuncLoss     | 0.0272      |
+| _MeanReward     | 321         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.12554     |
+| _max_adv        | 4.02        |
+| _max_discrew    | 2.4         |
+| _max_obs        | 27.2        |
+| _mean_act       | 0.101855    |
+| _mean_adv       | 7.09e-18    |
+| _mean_discrew   | 0.797       |
+| _mean_obs       | 0.00637     |
+| _min_adv        | -4.78       |
+| _min_discrew    | 0.0158      |
+| _min_obs        | -19.5       |
+| _std_act        | 0.423478    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.221       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 64
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.862       |
+| ExplainedVarOld | 0.681       |
+| KL              | 0.00228774  |
+| Phi_loss        | 92.0614     |
+| PolicyEntropy   | 15.5627     |
+| PolicyLoss      | -0.00607037 |
+| Steps           | 10002       |
+| VarFuncLoss     | 0.0306      |
+| _MeanReward     | 310         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.21293     |
+| _max_adv        | 4.64        |
+| _max_discrew    | 2.58        |
+| _max_obs        | 21.4        |
+| _mean_act       | 0.099511    |
+| _mean_adv       | 1.14e-17    |
+| _mean_discrew   | 0.775       |
+| _mean_obs       | 0.00627     |
+| _min_adv        | -4.99       |
+| _min_discrew    | 0.0154      |
+| _min_obs        | -21         |
+| _std_act        | 0.424838    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.209       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 65
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.857       |
+| ExplainedVarOld | 0.676       |
+| KL              | 0.00232187  |
+| Phi_loss        | 84.9604     |
+| PolicyEntropy   | 15.5627     |
+| PolicyLoss      | -0.00301178 |
+| Steps           | 10001       |
+| VarFuncLoss     | 0.0298      |
+| _MeanReward     | 330         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.93128     |
+| _max_adv        | 3.86        |
+| _max_discrew    | 2.11        |
+| _max_obs        | 29.2        |
+| _mean_act       | 0.102504    |
+| _mean_adv       | 2.84e-18    |
+| _mean_discrew   | 0.808       |
+| _mean_obs       | 0.00605     |
+| _min_adv        | -5.33       |
+| _min_discrew    | 0.0105      |
+| _min_obs        | -20.2       |
+| _std_act        | 0.425559    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.208       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 66
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.884       |
+| ExplainedVarOld | 0.706       |
+| KL              | 0.00264578  |
+| Phi_loss        | 81.0516     |
+| PolicyEntropy   | 15.5626     |
+| PolicyLoss      | 0.000914887 |
+| Steps           | 10029       |
+| VarFuncLoss     | 0.0242      |
+| _MeanReward     | 323         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.80165     |
+| _max_adv        | 5.19        |
+| _max_discrew    | 2.17        |
+| _max_obs        | 28.9        |
+| _mean_act       | 0.106181    |
+| _mean_adv       | 2.27e-17    |
+| _mean_discrew   | 0.786       |
+| _mean_obs       | 0.00654     |
+| _min_adv        | -4.62       |
+| _min_discrew    | 0.0126      |
+| _min_obs        | -32.7       |
+| _std_act        | 0.424358    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.203       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 67
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.881       |
+| ExplainedVarOld | 0.716       |
+| KL              | 0.00224675  |
+| Phi_loss        | 82.8196     |
+| PolicyEntropy   | 15.5626     |
+| PolicyLoss      | -0.00267162 |
+| Steps           | 10037       |
+| VarFuncLoss     | 0.0242      |
+| _MeanReward     | 335         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.1626      |
+| _max_adv        | 4.57        |
+| _max_discrew    | 2.74        |
+| _max_obs        | 31.5        |
+| _mean_act       | 0.108354    |
+| _mean_adv       | -2.27e-17   |
+| _mean_discrew   | 0.826       |
+| _mean_obs       | 0.00644     |
+| _min_adv        | -4.56       |
+| _min_discrew    | 0.0164      |
+| _min_obs        | -30.2       |
+| _std_act        | 0.423112    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.235       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 68
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.87        |
+| ExplainedVarOld | 0.682       |
+| KL              | 0.00231608  |
+| Phi_loss        | 74.3506     |
+| PolicyEntropy   | 15.5626     |
+| PolicyLoss      | -0.00258738 |
+| Steps           | 10030       |
+| VarFuncLoss     | 0.0307      |
+| _MeanReward     | 338         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.9645      |
+| _max_adv        | 5.67        |
+| _max_discrew    | 2.72        |
+| _max_obs        | 32          |
+| _mean_act       | 0.108708    |
+| _mean_adv       | -5.67e-18   |
+| _mean_discrew   | 0.832       |
+| _mean_obs       | 0.00706     |
+| _min_adv        | -5.05       |
+| _min_discrew    | 0.00152     |
+| _min_obs        | -30.2       |
+| _std_act        | 0.421355    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.242       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 69
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.877      |
+| ExplainedVarOld | 0.697      |
+| KL              | 0.00319015 |
+| Phi_loss        | 75.0996    |
+| PolicyEntropy   | 15.5625    |
+| PolicyLoss      | 0.00590695 |
+| Steps           | 10039      |
+| VarFuncLoss     | 0.0299     |
+| _MeanReward     | 336        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.05901    |
+| _max_adv        | 4.42       |
+| _max_discrew    | 2.69       |
+| _max_obs        | 18.6       |
+| _mean_act       | 0.106671   |
+| _mean_adv       | 1.13e-17   |
+| _mean_discrew   | 0.835      |
+| _mean_obs       | 0.00636    |
+| _min_adv        | -5.69      |
+| _min_discrew    | 0.00935    |
+| _min_obs        | -20.6      |
+| _std_act        | 0.423913   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.24       |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 70
+Draw Samples..
+----------------------------------
+| Beta            | 0.198        |
+| ExplainedVarNew | 0.875        |
+| ExplainedVarOld | 0.683        |
+| KL              | 0.00277922   |
+| Phi_loss        | 78.3055      |
+| PolicyEntropy   | 15.5625      |
+| PolicyLoss      | -0.000740802 |
+| Steps           | 10041        |
+| VarFuncLoss     | 0.0303       |
+| _MeanReward     | 324          |
+| _lr_multiplier  | 1            |
+| _max_act        | 3.26396      |
+| _max_adv        | 5.01         |
+| _max_discrew    | 2.22         |
+| _max_obs        | 24.7         |
+| _mean_act       | 0.106797     |
+| _mean_adv       | -3.4e-17     |
+| _mean_discrew   | 0.795        |
+| _mean_obs       | 0.00622      |
+| _min_adv        | -4.87        |
+| _min_discrew    | 0.0162       |
+| _min_obs        | -29.1        |
+| _std_act        | 0.42429      |
+| _std_adv        | 1            |
+| _std_discrew    | 0.207        |
+----------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 71
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.871       |
+| ExplainedVarOld | 0.704       |
+| KL              | 0.00252555  |
+| Phi_loss        | 78.6652     |
+| PolicyEntropy   | 15.5625     |
+| PolicyLoss      | -0.00403708 |
+| Steps           | 10034       |
+| VarFuncLoss     | 0.0267      |
+| _MeanReward     | 337         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.02451     |
+| _max_adv        | 5.87        |
+| _max_discrew    | 2.62        |
+| _max_obs        | 19.5        |
+| _mean_act       | 0.113122    |
+| _mean_adv       | -1.56e-17   |
+| _mean_discrew   | 0.828       |
+| _mean_obs       | 0.00655     |
+| _min_adv        | -4.66       |
+| _min_discrew    | 0.0101      |
+| _min_obs        | -19.5       |
+| _std_act        | 0.421032    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.226       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 72
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.884       |
+| ExplainedVarOld | 0.727       |
+| KL              | 0.00249338  |
+| Phi_loss        | 71.7412     |
+| PolicyEntropy   | 15.5625     |
+| PolicyLoss      | -0.00145613 |
+| Steps           | 10004       |
+| VarFuncLoss     | 0.0262      |
+| _MeanReward     | 342         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.19159     |
+| _max_adv        | 5.17        |
+| _max_discrew    | 2.36        |
+| _max_obs        | 20.7        |
+| _mean_act       | 0.113381    |
+| _mean_adv       | 5.68e-18    |
+| _mean_discrew   | 0.836       |
+| _mean_obs       | 0.00688     |
+| _min_adv        | -5.65       |
+| _min_discrew    | 0.0153      |
+| _min_obs        | -16.1       |
+| _std_act        | 0.424383    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.229       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 73
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.897       |
+| ExplainedVarOld | 0.76        |
+| KL              | 0.00274844  |
+| Phi_loss        | 75.5487     |
+| PolicyEntropy   | 15.5624     |
+| PolicyLoss      | -0.00421045 |
+| Steps           | 10007       |
+| VarFuncLoss     | 0.0235      |
+| _MeanReward     | 341         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.09567     |
+| _max_adv        | 4.76        |
+| _max_discrew    | 2.4         |
+| _max_obs        | 31.8        |
+| _mean_act       | 0.116515    |
+| _mean_adv       | 1.42e-17    |
+| _mean_discrew   | 0.829       |
+| _mean_obs       | 0.00682     |
+| _min_adv        | -4.93       |
+| _min_discrew    | 0.0133      |
+| _min_obs        | -25.8       |
+| _std_act        | 0.423266    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.234       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 74
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.888       |
+| ExplainedVarOld | 0.71        |
+| KL              | 0.00387002  |
+| Phi_loss        | 72.8442     |
+| PolicyEntropy   | 15.5623     |
+| PolicyLoss      | -0.00504097 |
+| Steps           | 10009       |
+| VarFuncLoss     | 0.0261      |
+| _MeanReward     | 337         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.38783     |
+| _max_adv        | 4.87        |
+| _max_discrew    | 2.46        |
+| _max_obs        | 28.4        |
+| _mean_act       | 0.113422    |
+| _mean_adv       | -7.1e-18    |
+| _mean_discrew   | 0.829       |
+| _mean_obs       | 0.00668     |
+| _min_adv        | -4.96       |
+| _min_discrew    | 0.0113      |
+| _min_obs        | -30.2       |
+| _std_act        | 0.42362     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.229       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 75
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.897      |
+| ExplainedVarOld | 0.722      |
+| KL              | 0.00325825 |
+| Phi_loss        | 69.5452    |
+| PolicyEntropy   | 15.5622    |
+| PolicyLoss      | 0.00133928 |
+| Steps           | 10032      |
+| VarFuncLoss     | 0.0237     |
+| _MeanReward     | 333        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.19982    |
+| _max_adv        | 4.34       |
+| _max_discrew    | 2.56       |
+| _max_obs        | 22.7       |
+| _mean_act       | 0.116567   |
+| _mean_adv       | 2.27e-17   |
+| _mean_discrew   | 0.819      |
+| _mean_obs       | 0.00756    |
+| _min_adv        | -4.53      |
+| _min_discrew    | 0.0182     |
+| _min_obs        | -24.5      |
+| _std_act        | 0.424953   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.23       |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 76
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.887      |
+| ExplainedVarOld | 0.66       |
+| KL              | 0.00292627 |
+| Phi_loss        | 59.9233    |
+| PolicyEntropy   | 15.5621    |
+| PolicyLoss      | 0.00184742 |
+| Steps           | 10015      |
+| VarFuncLoss     | 0.0259     |
+| _MeanReward     | 337        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.10029    |
+| _max_adv        | 5.71       |
+| _max_discrew    | 2.29       |
+| _max_obs        | 31.5       |
+| _mean_act       | 0.116969   |
+| _mean_adv       | -1.7e-17   |
+| _mean_discrew   | 0.817      |
+| _mean_obs       | 0.00661    |
+| _min_adv        | -4.55      |
+| _min_discrew    | 0.0151     |
+| _min_obs        | -28.1      |
+| _std_act        | 0.424825   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.218      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 77
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.895      |
+| ExplainedVarOld | 0.744      |
+| KL              | 0.00339281 |
+| Phi_loss        | 76.3501    |
+| PolicyEntropy   | 15.5621    |
+| PolicyLoss      | -0.0316215 |
+| Steps           | 10073      |
+| VarFuncLoss     | 0.0234     |
+| _MeanReward     | 343        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.97061    |
+| _max_adv        | 5.21       |
+| _max_discrew    | 2.29       |
+| _max_obs        | 47.6       |
+| _mean_act       | 0.114036   |
+| _mean_adv       | 1.13e-17   |
+| _mean_discrew   | 0.835      |
+| _mean_obs       | 0.00652    |
+| _min_adv        | -4.86      |
+| _min_discrew    | 0.0144     |
+| _min_obs        | -37.4      |
+| _std_act        | 0.426202   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.233      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 78
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.891       |
+| ExplainedVarOld | 0.717       |
+| KL              | 0.00269431  |
+| Phi_loss        | 71.6833     |
+| PolicyEntropy   | 15.5621     |
+| PolicyLoss      | -0.00293707 |
+| Steps           | 10085       |
+| VarFuncLoss     | 0.0256      |
+| _MeanReward     | 330         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.25998     |
+| _max_adv        | 5.31        |
+| _max_discrew    | 2.37        |
+| _max_obs        | 36.6        |
+| _mean_act       | 0.109795    |
+| _mean_adv       | 1.97e-17    |
+| _mean_discrew   | 0.806       |
+| _mean_obs       | 0.00546     |
+| _min_adv        | -4.45       |
+| _min_discrew    | 0.00917     |
+| _min_obs        | -35.9       |
+| _std_act        | 0.426816    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.218       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 79
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.891       |
+| ExplainedVarOld | 0.716       |
+| KL              | 0.00280567  |
+| Phi_loss        | 68.7036     |
+| PolicyEntropy   | 15.5622     |
+| PolicyLoss      | 0.000375076 |
+| Steps           | 10016       |
+| VarFuncLoss     | 0.0237      |
+| _MeanReward     | 353         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.29192     |
+| _max_adv        | 4.58        |
+| _max_discrew    | 2.38        |
+| _max_obs        | 20.7        |
+| _mean_act       | 0.115621    |
+| _mean_adv       | -1.42e-18   |
+| _mean_discrew   | 0.86        |
+| _mean_obs       | 0.00685     |
+| _min_adv        | -5.33       |
+| _min_discrew    | 0.017       |
+| _min_obs        | -19.5       |
+| _std_act        | 0.426705    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.242       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 80
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.894       |
+| ExplainedVarOld | 0.718       |
+| KL              | 0.00240343  |
+| Phi_loss        | 65.0933     |
+| PolicyEntropy   | 15.5622     |
+| PolicyLoss      | -0.00331732 |
+| Steps           | 10055       |
+| VarFuncLoss     | 0.0257      |
+| _MeanReward     | 354         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.74833     |
+| _max_adv        | 4.45        |
+| _max_discrew    | 2.47        |
+| _max_obs        | 26.2        |
+| _mean_act       | 0.116902    |
+| _mean_adv       | -5.65e-18   |
+| _mean_discrew   | 0.86        |
+| _mean_obs       | 0.00629     |
+| _min_adv        | -4.39       |
+| _min_discrew    | 0.0142      |
+| _min_obs        | -40.3       |
+| _std_act        | 0.424029    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.245       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 81
+Draw Samples..
+--------------------------------
+| Beta            | 0.296      |
+| ExplainedVarNew | 0.888      |
+| ExplainedVarOld | 0.727      |
+| KL              | 0.00864676 |
+| Phi_loss        | 110.872    |
+| PolicyEntropy   | 15.5621    |
+| PolicyLoss      | -1.18082   |
+| Steps           | 10018      |
+| VarFuncLoss     | 0.0278     |
+| _MeanReward     | 344        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.49373    |
+| _max_adv        | 4.69       |
+| _max_discrew    | 2.75       |
+| _max_obs        | 25.8       |
+| _mean_act       | 0.110156   |
+| _mean_adv       | -2.84e-18  |
+| _mean_discrew   | 0.851      |
+| _mean_obs       | 0.00647    |
+| _min_adv        | -5.36      |
+| _min_discrew    | 0.0147     |
+| _min_obs        | -16.1      |
+| _std_act        | 0.430123   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.247      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 82
+Draw Samples..
+---------------------------------
+| Beta            | 0.444       |
+| ExplainedVarNew | 0.873       |
+| ExplainedVarOld | 0.667       |
+| KL              | 0.00603375  |
+| Phi_loss        | 87.0381     |
+| PolicyEntropy   | 15.5622     |
+| PolicyLoss      | -0.00459611 |
+| Steps           | 10006       |
+| VarFuncLoss     | 0.0312      |
+| _MeanReward     | 341         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.98375     |
+| _max_adv        | 4.53        |
+| _max_discrew    | 2.26        |
+| _max_obs        | 23.9        |
+| _mean_act       | 0.119296    |
+| _mean_adv       | 7.1e-18     |
+| _mean_discrew   | 0.831       |
+| _mean_obs       | 0.00672     |
+| _min_adv        | -5.54       |
+| _min_discrew    | 0.0151      |
+| _min_obs        | -25.4       |
+| _std_act        | 0.42583     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.221       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 83
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.89        |
+| ExplainedVarOld | 0.727       |
+| KL              | 0.000932616 |
+| Phi_loss        | 76.472      |
+| PolicyEntropy   | 15.5621     |
+| PolicyLoss      | -0.00153305 |
+| Steps           | 10001       |
+| VarFuncLoss     | 0.0243      |
+| _MeanReward     | 348         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.53405     |
+| _max_adv        | 4.46        |
+| _max_discrew    | 2.46        |
+| _max_obs        | 25.2        |
+| _mean_act       | 0.113487    |
+| _mean_adv       | -8.53e-18   |
+| _mean_discrew   | 0.852       |
+| _mean_obs       | 0.00619     |
+| _min_adv        | -4.81       |
+| _min_discrew    | 0.0177      |
+| _min_obs        | -23.3       |
+| _std_act        | 0.430928    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.241       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 84
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.892       |
+| ExplainedVarOld | 0.719       |
+| KL              | 0.00140903  |
+| Phi_loss        | 78.7593     |
+| PolicyEntropy   | 15.5621     |
+| PolicyLoss      | -0.00453577 |
+| Steps           | 10064       |
+| VarFuncLoss     | 0.0259      |
+| _MeanReward     | 358         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.44975     |
+| _max_adv        | 5.22        |
+| _max_discrew    | 2.54        |
+| _max_obs        | 27.6        |
+| _mean_act       | 0.119768    |
+| _mean_adv       | 5.65e-18    |
+| _mean_discrew   | 0.875       |
+| _mean_obs       | 0.00662     |
+| _min_adv        | -4.62       |
+| _min_discrew    | 0.0168      |
+| _min_obs        | -27.6       |
+| _std_act        | 0.421317    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.256       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 85
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.877       |
+| ExplainedVarOld | 0.679       |
+| KL              | 0.00223687  |
+| Phi_loss        | 72.7365     |
+| PolicyEntropy   | 15.5621     |
+| PolicyLoss      | -0.00477302 |
+| Steps           | 10042       |
+| VarFuncLoss     | 0.0315      |
+| _MeanReward     | 357         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.9252      |
+| _max_adv        | 4.71        |
+| _max_discrew    | 2.28        |
+| _max_obs        | 44.2        |
+| _mean_act       | 0.125711    |
+| _mean_adv       | 2.55e-17    |
+| _mean_discrew   | 0.855       |
+| _mean_obs       | 0.00666     |
+| _min_adv        | -4.65       |
+| _min_discrew    | 0.0145      |
+| _min_obs        | -47.4       |
+| _std_act        | 0.424813    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.236       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 86
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.896       |
+| ExplainedVarOld | 0.737       |
+| KL              | 0.00209948  |
+| Phi_loss        | 70.3        |
+| PolicyEntropy   | 15.562      |
+| PolicyLoss      | 0.000759216 |
+| Steps           | 10036       |
+| VarFuncLoss     | 0.0247      |
+| _MeanReward     | 353         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.20458     |
+| _max_adv        | 4.61        |
+| _max_discrew    | 2.45        |
+| _max_obs        | 20.9        |
+| _mean_act       | 0.122495    |
+| _mean_adv       | -1.7e-17    |
+| _mean_discrew   | 0.848       |
+| _mean_obs       | 0.00608     |
+| _min_adv        | -5.55       |
+| _min_discrew    | 0.0176      |
+| _min_obs        | -19.4       |
+| _std_act        | 0.426311    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.229       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 87
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.904      |
+| ExplainedVarOld | 0.744      |
+| KL              | 0.00279312 |
+| Phi_loss        | 67.4791    |
+| PolicyEntropy   | 15.562     |
+| PolicyLoss      | 0.00118942 |
+| Steps           | 10054      |
+| VarFuncLoss     | 0.0222     |
+| _MeanReward     | 352        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.6154     |
+| _max_adv        | 4.37       |
+| _max_discrew    | 2.48       |
+| _max_obs        | 34.5       |
+| _mean_act       | 0.117494   |
+| _mean_adv       | 2.54e-17   |
+| _mean_discrew   | 0.853      |
+| _mean_obs       | 0.00578    |
+| _min_adv        | -4.59      |
+| _min_discrew    | 0.0178     |
+| _min_obs        | -34.8      |
+| _std_act        | 0.428703   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.237      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 88
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.899       |
+| ExplainedVarOld | 0.757       |
+| KL              | 0.00282022  |
+| Phi_loss        | 69.1063     |
+| PolicyEntropy   | 15.5621     |
+| PolicyLoss      | -0.00193861 |
+| Steps           | 10013       |
+| VarFuncLoss     | 0.0239      |
+| _MeanReward     | 353         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.12932     |
+| _max_adv        | 4.17        |
+| _max_discrew    | 2.46        |
+| _max_obs        | 28.2        |
+| _mean_act       | 0.122483    |
+| _mean_adv       | 1.42e-17    |
+| _mean_discrew   | 0.845       |
+| _mean_obs       | 0.00594     |
+| _min_adv        | -4.48       |
+| _min_discrew    | 0.0168      |
+| _min_obs        | -30.4       |
+| _std_act        | 0.424302    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.231       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 89
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.903      |
+| ExplainedVarOld | 0.753      |
+| KL              | 0.00286619 |
+| Phi_loss        | 65.4203    |
+| PolicyEntropy   | 15.5622    |
+| PolicyLoss      | -0.0115775 |
+| Steps           | 10022      |
+| VarFuncLoss     | 0.0226     |
+| _MeanReward     | 350        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.08481    |
+| _max_adv        | 4.68       |
+| _max_discrew    | 2.2        |
+| _max_obs        | 32.7       |
+| _mean_act       | 0.123887   |
+| _mean_adv       | -2.84e-17  |
+| _mean_discrew   | 0.84       |
+| _mean_obs       | 0.00647    |
+| _min_adv        | -4.78      |
+| _min_discrew    | 0.0156     |
+| _min_obs        | -24.5      |
+| _std_act        | 0.427579   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.229      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 90
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.908       |
+| ExplainedVarOld | 0.761       |
+| KL              | 0.00287001  |
+| Phi_loss        | 65.613      |
+| PolicyEntropy   | 15.5623     |
+| PolicyLoss      | -0.00367815 |
+| Steps           | 10063       |
+| VarFuncLoss     | 0.0214      |
+| _MeanReward     | 369         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.00993     |
+| _max_adv        | 4.58        |
+| _max_discrew    | 2.25        |
+| _max_obs        | 41.1        |
+| _mean_act       | 0.124228    |
+| _mean_adv       | 5.65e-18    |
+| _mean_discrew   | 0.877       |
+| _mean_obs       | 0.00518     |
+| _min_adv        | -5.14       |
+| _min_discrew    | 0.0134      |
+| _min_obs        | -33.4       |
+| _std_act        | 0.427677    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.245       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 91
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.908      |
+| ExplainedVarOld | 0.772      |
+| KL              | 0.00239326 |
+| Phi_loss        | 64.7162    |
+| PolicyEntropy   | 15.5623    |
+| PolicyLoss      | 0.00111513 |
+| Steps           | 10008      |
+| VarFuncLoss     | 0.0227     |
+| _MeanReward     | 354        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.80985    |
+| _max_adv        | 4.53       |
+| _max_discrew    | 2.41       |
+| _max_obs        | 28.9       |
+| _mean_act       | 0.129501   |
+| _mean_adv       | -2.27e-17  |
+| _mean_discrew   | 0.849      |
+| _mean_obs       | 0.00623    |
+| _min_adv        | -4.93      |
+| _min_discrew    | 0.016      |
+| _min_obs        | -26.4      |
+| _std_act        | 0.42625    |
+| _std_adv        | 1          |
+| _std_discrew    | 0.232      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 92
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.912       |
+| ExplainedVarOld | 0.785       |
+| KL              | 0.00230825  |
+| Phi_loss        | 55.9241     |
+| PolicyEntropy   | 15.5623     |
+| PolicyLoss      | -0.00247506 |
+| Steps           | 10011       |
+| VarFuncLoss     | 0.0206      |
+| _MeanReward     | 371         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.25666     |
+| _max_adv        | 4.55        |
+| _max_discrew    | 2.48        |
+| _max_obs        | 25.4        |
+| _mean_act       | 0.126581    |
+| _mean_adv       | 1.99e-17    |
+| _mean_discrew   | 0.891       |
+| _mean_obs       | 0.0064      |
+| _min_adv        | -4.92       |
+| _min_discrew    | 0.0164      |
+| _min_obs        | -25.4       |
+| _std_act        | 0.425686    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.261       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 93
+Draw Samples..
+----------------------------------
+| Beta            | 0.198        |
+| ExplainedVarNew | 0.903        |
+| ExplainedVarOld | 0.759        |
+| KL              | 0.0022385    |
+| Phi_loss        | 52.3018      |
+| PolicyEntropy   | 15.5622      |
+| PolicyLoss      | -0.000512555 |
+| Steps           | 10047        |
+| VarFuncLoss     | 0.0254       |
+| _MeanReward     | 372          |
+| _lr_multiplier  | 1            |
+| _max_act        | 3.24809      |
+| _max_adv        | 4.12         |
+| _max_discrew    | 2.96         |
+| _max_obs        | 25.9         |
+| _mean_act       | 0.125879     |
+| _mean_adv       | -1.13e-17    |
+| _mean_discrew   | 0.907        |
+| _mean_obs       | 0.00618      |
+| _min_adv        | -4.95        |
+| _min_discrew    | 0.0171       |
+| _min_obs        | -23.9        |
+| _std_act        | 0.430658     |
+| _std_adv        | 1            |
+| _std_discrew    | 0.292        |
+----------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 94
+Draw Samples..
+----------------------------------
+| Beta            | 0.198        |
+| ExplainedVarNew | 0.894        |
+| ExplainedVarOld | 0.677        |
+| KL              | 0.00263335   |
+| Phi_loss        | 51.5738      |
+| PolicyEntropy   | 15.5621      |
+| PolicyLoss      | -9.87127e-05 |
+| Steps           | 10023        |
+| VarFuncLoss     | 0.0311       |
+| _MeanReward     | 355          |
+| _lr_multiplier  | 1            |
+| _max_act        | 3.33806      |
+| _max_adv        | 4.98         |
+| _max_discrew    | 2.3          |
+| _max_obs        | 32.6         |
+| _mean_act       | 0.126303     |
+| _mean_adv       | 9.92e-18     |
+| _mean_discrew   | 0.854        |
+| _mean_obs       | 0.00577      |
+| _min_adv        | -5.32        |
+| _min_discrew    | 0.00983      |
+| _min_obs        | -26.6        |
+| _std_act        | 0.426599     |
+| _std_adv        | 1            |
+| _std_discrew    | 0.231        |
+----------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 95
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.899       |
+| ExplainedVarOld | 0.746       |
+| KL              | 0.00260473  |
+| Phi_loss        | 60.5666     |
+| PolicyEntropy   | 15.5621     |
+| PolicyLoss      | -0.00250955 |
+| Steps           | 10046       |
+| VarFuncLoss     | 0.0234      |
+| _MeanReward     | 358         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.2108      |
+| _max_adv        | 4.53        |
+| _max_discrew    | 2.58        |
+| _max_obs        | 33.1        |
+| _mean_act       | 0.125855    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.858       |
+| _mean_obs       | 0.00512     |
+| _min_adv        | -5.18       |
+| _min_discrew    | 0.0102      |
+| _min_obs        | -31.2       |
+| _std_act        | 0.424019    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.243       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 96
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.9        |
+| ExplainedVarOld | 0.762      |
+| KL              | 0.00289011 |
+| Phi_loss        | 70.8642    |
+| PolicyEntropy   | 15.5621    |
+| PolicyLoss      | -0.0139117 |
+| Steps           | 10046      |
+| VarFuncLoss     | 0.0246     |
+| _MeanReward     | 381        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.43094    |
+| _max_adv        | 5.11       |
+| _max_discrew    | 2.68       |
+| _max_obs        | 35         |
+| _mean_act       | 0.124626   |
+| _mean_adv       | 0          |
+| _mean_discrew   | 0.905      |
+| _mean_obs       | 0.00648    |
+| _min_adv        | -5.71      |
+| _min_discrew    | 0.0131     |
+| _min_obs        | -30.5      |
+| _std_act        | 0.426254   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.267      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 97
+Draw Samples..
+-------------------------------
+| Beta            | 0.296     |
+| ExplainedVarNew | 0.91      |
+| ExplainedVarOld | 0.759     |
+| KL              | 0.0127128 |
+| Phi_loss        | 164.266   |
+| PolicyEntropy   | 15.5595   |
+| PolicyLoss      | 0.89571   |
+| Steps           | 10009     |
+| VarFuncLoss     | 0.0239    |
+| _MeanReward     | 364       |
+| _lr_multiplier  | 1         |
+| _max_act        | 3.61241   |
+| _max_adv        | 5.39      |
+| _max_discrew    | 2.59      |
+| _max_obs        | 28.3      |
+| _mean_act       | 0.125105  |
+| _mean_adv       | 0         |
+| _mean_discrew   | 0.869     |
+| _mean_obs       | 0.00556   |
+| _min_adv        | -5.12     |
+| _min_discrew    | 0.000154  |
+| _min_obs        | -25.7     |
+| _std_act        | 0.433008  |
+| _std_adv        | 1         |
+| _std_discrew    | 0.253     |
+-------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 98
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.904       |
+| ExplainedVarOld | 0.755       |
+| KL              | 0.00565188  |
+| Phi_loss        | 91.6047     |
+| PolicyEntropy   | 15.5502     |
+| PolicyLoss      | 0.000181951 |
+| Steps           | 10038       |
+| VarFuncLoss     | 0.0244      |
+| _MeanReward     | 378         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.18463     |
+| _max_adv        | 4.22        |
+| _max_discrew    | 2.81        |
+| _max_obs        | 25.1        |
+| _mean_act       | 0.124694    |
+| _mean_adv       | -5.66e-18   |
+| _mean_discrew   | 0.912       |
+| _mean_obs       | 0.00681     |
+| _min_adv        | -5.15       |
+| _min_discrew    | 0.00284     |
+| _min_obs        | -30         |
+| _std_act        | 0.430564    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.284       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 99
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.903       |
+| ExplainedVarOld | 0.697       |
+| KL              | 0.00131892  |
+| Phi_loss        | 85.0046     |
+| PolicyEntropy   | 15.5491     |
+| PolicyLoss      | -0.00375587 |
+| Steps           | 10016       |
+| VarFuncLoss     | 0.0278      |
+| _MeanReward     | 372         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.07951     |
+| _max_adv        | 4.69        |
+| _max_discrew    | 3.19        |
+| _max_obs        | 35.6        |
+| _mean_act       | 0.127156    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.909       |
+| _mean_obs       | 0.0054      |
+| _min_adv        | -4.66       |
+| _min_discrew    | 0.0146      |
+| _min_obs        | -36.3       |
+| _std_act        | 0.430465    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.315       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 100
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.885       |
+| ExplainedVarOld | 0.68        |
+| KL              | 0.0020992   |
+| Phi_loss        | 89.4743     |
+| PolicyEntropy   | 15.549      |
+| PolicyLoss      | -0.00427889 |
+| Steps           | 10050       |
+| VarFuncLoss     | 0.0362      |
+| _MeanReward     | 356         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.15353     |
+| _max_adv        | 5.12        |
+| _max_discrew    | 3.38        |
+| _max_obs        | 26.6        |
+| _mean_act       | 0.123155    |
+| _mean_adv       | -1.13e-17   |
+| _mean_discrew   | 0.878       |
+| _mean_obs       | 0.00587     |
+| _min_adv        | -4.21       |
+| _min_discrew    | 0.0169      |
+| _min_obs        | -28.9       |
+| _std_act        | 0.432768    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.29        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 101
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.883      |
+| ExplainedVarOld | 0.646      |
+| KL              | 0.00184118 |
+| Phi_loss        | 87.659     |
+| PolicyEntropy   | 15.5489    |
+| PolicyLoss      | 0.00203329 |
+| Steps           | 10045      |
+| VarFuncLoss     | 0.0341     |
+| _MeanReward     | 381        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.834      |
+| _max_adv        | 4.7        |
+| _max_discrew    | 2.52       |
+| _max_obs        | 37.7       |
+| _mean_act       | 0.121483   |
+| _mean_adv       | -2.26e-17  |
+| _mean_discrew   | 0.908      |
+| _mean_obs       | 0.00537    |
+| _min_adv        | -5.04      |
+| _min_discrew    | 0.0153     |
+| _min_obs        | -47.9      |
+| _std_act        | 0.428059   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.272      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 102
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.896       |
+| ExplainedVarOld | 0.671       |
+| KL              | 0.00215214  |
+| Phi_loss        | 80.9904     |
+| PolicyEntropy   | 15.5489     |
+| PolicyLoss      | -0.00119837 |
+| Steps           | 10053       |
+| VarFuncLoss     | 0.0284      |
+| _MeanReward     | 372         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.2266      |
+| _max_adv        | 5.56        |
+| _max_discrew    | 2.43        |
+| _max_obs        | 27.9        |
+| _mean_act       | 0.128593    |
+| _mean_adv       | -5.65e-18   |
+| _mean_discrew   | 0.886       |
+| _mean_obs       | 0.00602     |
+| _min_adv        | -6.15       |
+| _min_discrew    | 0.00436     |
+| _min_obs        | -29.8       |
+| _std_act        | 0.425005    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.26        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 103
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.894      |
+| ExplainedVarOld | 0.72       |
+| KL              | 0.00196081 |
+| Phi_loss        | 77.6544    |
+| PolicyEntropy   | 15.5488    |
+| PolicyLoss      | 0.00244022 |
+| Steps           | 10003      |
+| VarFuncLoss     | 0.0276     |
+| _MeanReward     | 382        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.22876    |
+| _max_adv        | 5.7        |
+| _max_discrew    | 2.59       |
+| _max_obs        | 23.8       |
+| _mean_act       | 0.130138   |
+| _mean_adv       | -8.52e-18  |
+| _mean_discrew   | 0.906      |
+| _mean_obs       | 0.00729    |
+| _min_adv        | -5.57      |
+| _min_discrew    | 0.0143     |
+| _min_obs        | -22.5      |
+| _std_act        | 0.426928   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.266      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 104
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.905      |
+| ExplainedVarOld | 0.743      |
+| KL              | 0.00218149 |
+| Phi_loss        | 76.2104    |
+| PolicyEntropy   | 15.5487    |
+| PolicyLoss      | -0.0048762 |
+| Steps           | 10098      |
+| VarFuncLoss     | 0.0254     |
+| _MeanReward     | 376        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.39778    |
+| _max_adv        | 4.96       |
+| _max_discrew    | 2.7        |
+| _max_obs        | 29.1       |
+| _mean_act       | 0.128222   |
+| _mean_adv       | 1.13e-17   |
+| _mean_discrew   | 0.899      |
+| _mean_obs       | 0.00566    |
+| _min_adv        | -5.44      |
+| _min_discrew    | 0.0132     |
+| _min_obs        | -30.7      |
+| _std_act        | 0.425041   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.271      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 105
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.895       |
+| ExplainedVarOld | 0.721       |
+| KL              | 0.0023403   |
+| Phi_loss        | 72.7072     |
+| PolicyEntropy   | 15.5487     |
+| PolicyLoss      | -0.00523461 |
+| Steps           | 10019       |
+| VarFuncLoss     | 0.0285      |
+| _MeanReward     | 372         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.07156     |
+| _max_adv        | 6.01        |
+| _max_discrew    | 2.38        |
+| _max_obs        | 40.4        |
+| _mean_act       | 0.129763    |
+| _mean_adv       | 1.42e-18    |
+| _mean_discrew   | 0.882       |
+| _mean_obs       | 0.00641     |
+| _min_adv        | -5.29       |
+| _min_discrew    | 9.99e-05    |
+| _min_obs        | -23.6       |
+| _std_act        | 0.431159    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.256       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 106
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.891       |
+| ExplainedVarOld | 0.75        |
+| KL              | 0.00232429  |
+| Phi_loss        | 81.8969     |
+| PolicyEntropy   | 15.5487     |
+| PolicyLoss      | -0.00621382 |
+| Steps           | 10023       |
+| VarFuncLoss     | 0.0279      |
+| _MeanReward     | 384         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.37239     |
+| _max_adv        | 4.66        |
+| _max_discrew    | 2.33        |
+| _max_obs        | 22.2        |
+| _mean_act       | 0.129155    |
+| _mean_adv       | 1.7e-17     |
+| _mean_discrew   | 0.915       |
+| _mean_obs       | 0.00804     |
+| _min_adv        | -5.34       |
+| _min_discrew    | 0.0156      |
+| _min_obs        | -35         |
+| _std_act        | 0.428669    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.27        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 107
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.91        |
+| ExplainedVarOld | 0.77        |
+| KL              | 0.00212345  |
+| Phi_loss        | 72.1972     |
+| PolicyEntropy   | 15.5487     |
+| PolicyLoss      | -0.00254898 |
+| Steps           | 10022       |
+| VarFuncLoss     | 0.0247      |
+| _MeanReward     | 373         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.1082      |
+| _max_adv        | 5.01        |
+| _max_discrew    | 2.47        |
+| _max_obs        | 25.2        |
+| _mean_act       | 0.12912     |
+| _mean_adv       | -9.93e-18   |
+| _mean_discrew   | 0.892       |
+| _mean_obs       | 0.0069      |
+| _min_adv        | -5.47       |
+| _min_discrew    | 0.0137      |
+| _min_obs        | -30.7       |
+| _std_act        | 0.427867    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.258       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 108
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.908       |
+| ExplainedVarOld | 0.769       |
+| KL              | 0.00240411  |
+| Phi_loss        | 77.6232     |
+| PolicyEntropy   | 15.5487     |
+| PolicyLoss      | -0.00122464 |
+| Steps           | 10066       |
+| VarFuncLoss     | 0.0238      |
+| _MeanReward     | 376         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.61731     |
+| _max_adv        | 4.82        |
+| _max_discrew    | 2.41        |
+| _max_obs        | 37.3        |
+| _mean_act       | 0.127817    |
+| _mean_adv       | -1.55e-17   |
+| _mean_discrew   | 0.897       |
+| _mean_obs       | 0.00624     |
+| _min_adv        | -4.21       |
+| _min_discrew    | 0.0151      |
+| _min_obs        | -32         |
+| _std_act        | 0.42955     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.258       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 109
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.907       |
+| ExplainedVarOld | 0.756       |
+| KL              | 0.00207961  |
+| Phi_loss        | 76.1492     |
+| PolicyEntropy   | 15.5487     |
+| PolicyLoss      | -0.00102229 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.024       |
+| _MeanReward     | 382         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.91968     |
+| _max_adv        | 4.73        |
+| _max_discrew    | 2.46        |
+| _max_obs        | 27.9        |
+| _mean_act       | 0.133099    |
+| _mean_adv       | 2.69e-17    |
+| _mean_discrew   | 0.9         |
+| _mean_obs       | 0.00583     |
+| _min_adv        | -4.68       |
+| _min_discrew    | 0.0147      |
+| _min_obs        | -29.9       |
+| _std_act        | 0.429454    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.265       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 110
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.907       |
+| ExplainedVarOld | 0.774       |
+| KL              | 0.00197043  |
+| Phi_loss        | 80.5821     |
+| PolicyEntropy   | 15.5488     |
+| PolicyLoss      | -0.00496676 |
+| Steps           | 10001       |
+| VarFuncLoss     | 0.0247      |
+| _MeanReward     | 371         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.70124     |
+| _max_adv        | 5.05        |
+| _max_discrew    | 2.64        |
+| _max_obs        | 24.1        |
+| _mean_act       | 0.13545     |
+| _mean_adv       | -1.71e-17   |
+| _mean_discrew   | 0.897       |
+| _mean_obs       | 0.00621     |
+| _min_adv        | -5.48       |
+| _min_discrew    | 0.0151      |
+| _min_obs        | -25.8       |
+| _std_act        | 0.429118    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.28        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 111
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.897      |
+| ExplainedVarOld | 0.717      |
+| KL              | 0.00183876 |
+| Phi_loss        | 74.5374    |
+| PolicyEntropy   | 15.5489    |
+| PolicyLoss      | 0.00326027 |
+| Steps           | 10037      |
+| VarFuncLoss     | 0.0289     |
+| _MeanReward     | 375        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.09727    |
+| _max_adv        | 5          |
+| _max_discrew    | 2.56       |
+| _max_obs        | 23.5       |
+| _mean_act       | 0.129454   |
+| _mean_adv       | -1.42e-17  |
+| _mean_discrew   | 0.895      |
+| _mean_obs       | 0.00579    |
+| _min_adv        | -5.71      |
+| _min_discrew    | 0.012      |
+| _min_obs        | -24.1      |
+| _std_act        | 0.432302   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.27       |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 112
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.906       |
+| ExplainedVarOld | 0.747       |
+| KL              | 0.00233726  |
+| Phi_loss        | 72.3241     |
+| PolicyEntropy   | 15.549      |
+| PolicyLoss      | -0.00229843 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.0253      |
+| _MeanReward     | 378         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.30088     |
+| _max_adv        | 4.01        |
+| _max_discrew    | 2.37        |
+| _max_obs        | 34.6        |
+| _mean_act       | 0.13629     |
+| _mean_adv       | -1.84e-17   |
+| _mean_discrew   | 0.896       |
+| _mean_obs       | 0.0081      |
+| _min_adv        | -5.39       |
+| _min_discrew    | 0.00371     |
+| _min_obs        | -27.3       |
+| _std_act        | 0.432632    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.259       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 113
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.907       |
+| ExplainedVarOld | 0.753       |
+| KL              | 0.00230522  |
+| Phi_loss        | 74.5427     |
+| PolicyEntropy   | 15.5491     |
+| PolicyLoss      | -0.00242707 |
+| Steps           | 10025       |
+| VarFuncLoss     | 0.0242      |
+| _MeanReward     | 373         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.13658     |
+| _max_adv        | 4.98        |
+| _max_discrew    | 2.34        |
+| _max_obs        | 23.1        |
+| _mean_act       | 0.131934    |
+| _mean_adv       | 8.51e-18    |
+| _mean_discrew   | 0.879       |
+| _mean_obs       | 0.00621     |
+| _min_adv        | -5.84       |
+| _min_discrew    | 0.00987     |
+| _min_obs        | -20.6       |
+| _std_act        | 0.433775    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.248       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 114
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.909       |
+| ExplainedVarOld | 0.759       |
+| KL              | 0.00262357  |
+| Phi_loss        | 72.8604     |
+| PolicyEntropy   | 15.549      |
+| PolicyLoss      | -0.00306364 |
+| Steps           | 10044       |
+| VarFuncLoss     | 0.0228      |
+| _MeanReward     | 384         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.56919     |
+| _max_adv        | 4.2         |
+| _max_discrew    | 2.66        |
+| _max_obs        | 20.7        |
+| _mean_act       | 0.134604    |
+| _mean_adv       | 5.66e-18    |
+| _mean_discrew   | 0.912       |
+| _mean_obs       | 0.00664     |
+| _min_adv        | -5.09       |
+| _min_discrew    | 0.0108      |
+| _min_obs        | -25.8       |
+| _std_act        | 0.429463    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.274       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 115
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.909       |
+| ExplainedVarOld | 0.778       |
+| KL              | 0.002239    |
+| Phi_loss        | 73.892      |
+| PolicyEntropy   | 15.5488     |
+| PolicyLoss      | -0.00286321 |
+| Steps           | 10000       |
+| VarFuncLoss     | 0.025       |
+| _MeanReward     | 377         |
+| _lr_multiplier  | 1           |
+| _max_act        | 2.99655     |
+| _max_adv        | 5.24        |
+| _max_discrew    | 2.64        |
+| _max_obs        | 26.3        |
+| _mean_act       | 0.131717    |
+| _mean_adv       | 5.68e-18    |
+| _mean_discrew   | 0.918       |
+| _mean_obs       | 0.00591     |
+| _min_adv        | -4.88       |
+| _min_discrew    | 0.0139      |
+| _min_obs        | -22.5       |
+| _std_act        | 0.432397    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.293       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 116
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.886       |
+| ExplainedVarOld | 0.734       |
+| KL              | 0.00216588  |
+| Phi_loss        | 74.1437     |
+| PolicyEntropy   | 15.5486     |
+| PolicyLoss      | -0.00519761 |
+| Steps           | 10083       |
+| VarFuncLoss     | 0.0334      |
+| _MeanReward     | 391         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.09452     |
+| _max_adv        | 5.22        |
+| _max_discrew    | 2.92        |
+| _max_obs        | 29.6        |
+| _mean_act       | 0.134224    |
+| _mean_adv       | 2.26e-17    |
+| _mean_discrew   | 0.941       |
+| _mean_obs       | 0.00664     |
+| _min_adv        | -4.41       |
+| _min_discrew    | 0.0147      |
+| _min_obs        | -33.8       |
+| _std_act        | 0.430731    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.308       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 117
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.903      |
+| ExplainedVarOld | 0.731      |
+| KL              | 0.00250612 |
+| Phi_loss        | 66.8408    |
+| PolicyEntropy   | 15.5483    |
+| PolicyLoss      | 0.00297318 |
+| Steps           | 10039      |
+| VarFuncLoss     | 0.0302     |
+| _MeanReward     | 392        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.17221    |
+| _max_adv        | 4.99       |
+| _max_discrew    | 3.2        |
+| _max_obs        | 30.1       |
+| _mean_act       | 0.13153    |
+| _mean_adv       | -8.49e-18  |
+| _mean_discrew   | 0.949      |
+| _mean_obs       | 0.00639    |
+| _min_adv        | -5.51      |
+| _min_discrew    | 0.0155     |
+| _min_obs        | -28.3      |
+| _std_act        | 0.43859    |
+| _std_adv        | 1          |
+| _std_discrew    | 0.326      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 118
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.9         |
+| ExplainedVarOld | 0.725       |
+| KL              | 0.00254369  |
+| Phi_loss        | 66.45       |
+| PolicyEntropy   | 15.5482     |
+| PolicyLoss      | -0.00909971 |
+| Steps           | 10010       |
+| VarFuncLoss     | 0.0325      |
+| _MeanReward     | 402         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.19753     |
+| _max_adv        | 4.78        |
+| _max_discrew    | 2.96        |
+| _max_obs        | 24.8        |
+| _mean_act       | 0.129972    |
+| _mean_adv       | 2.56e-17    |
+| _mean_discrew   | 0.957       |
+| _mean_obs       | 0.00606     |
+| _min_adv        | -5.04       |
+| _min_discrew    | 0.0157      |
+| _min_obs        | -23.3       |
+| _std_act        | 0.434936    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.302       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 119
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.905       |
+| ExplainedVarOld | 0.735       |
+| KL              | 0.00267454  |
+| Phi_loss        | 67.6793     |
+| PolicyEntropy   | 15.5484     |
+| PolicyLoss      | -0.00573492 |
+| Steps           | 10059       |
+| VarFuncLoss     | 0.0288      |
+| _MeanReward     | 373         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.24661     |
+| _max_adv        | 4.73        |
+| _max_discrew    | 2.25        |
+| _max_obs        | 38.2        |
+| _mean_act       | 0.133708    |
+| _mean_adv       | 8.48e-18    |
+| _mean_discrew   | 0.881       |
+| _mean_obs       | 0.00514     |
+| _min_adv        | -5.19       |
+| _min_discrew    | -0.0289     |
+| _min_obs        | -29.9       |
+| _std_act        | 0.433101    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.246       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 120
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.911      |
+| ExplainedVarOld | 0.754      |
+| KL              | 0.00579285 |
+| Phi_loss        | 99.3142    |
+| PolicyEntropy   | 15.5483    |
+| PolicyLoss      | -0.307286  |
+| Steps           | 10008      |
+| VarFuncLoss     | 0.022      |
+| _MeanReward     | 384        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.35887    |
+| _max_adv        | 4.43       |
+| _max_discrew    | 2.4        |
+| _max_obs        | 26.8       |
+| _mean_act       | 0.136713   |
+| _mean_adv       | -1.14e-17  |
+| _mean_discrew   | 0.906      |
+| _mean_obs       | 0.00609    |
+| _min_adv        | -5.97      |
+| _min_discrew    | 0.0126     |
+| _min_obs        | -19.2      |
+| _std_act        | 0.427785   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.268      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 121
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.91        |
+| ExplainedVarOld | 0.74        |
+| KL              | 0.00593601  |
+| Phi_loss        | 82.4824     |
+| PolicyEntropy   | 15.5483     |
+| PolicyLoss      | -0.00085853 |
+| Steps           | 10049       |
+| VarFuncLoss     | 0.0241      |
+| _MeanReward     | 388         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.51396     |
+| _max_adv        | 4.55        |
+| _max_discrew    | 3.25        |
+| _max_obs        | 20.5        |
+| _mean_act       | 0.131394    |
+| _mean_adv       | 5.66e-18    |
+| _mean_discrew   | 0.929       |
+| _mean_obs       | 0.00513     |
+| _min_adv        | -4.79       |
+| _min_discrew    | 0.0167      |
+| _min_obs        | -19.6       |
+| _std_act        | 0.434138    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.294       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 122
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.897       |
+| ExplainedVarOld | 0.722       |
+| KL              | 0.00209172  |
+| Phi_loss        | 93.388      |
+| PolicyEntropy   | 15.5482     |
+| PolicyLoss      | 7.36621e-05 |
+| Steps           | 10065       |
+| VarFuncLoss     | 0.0302      |
+| _MeanReward     | 399         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.37661     |
+| _max_adv        | 4.25        |
+| _max_discrew    | 2.63        |
+| _max_obs        | 35          |
+| _mean_act       | 0.140506    |
+| _mean_adv       | -5.65e-18   |
+| _mean_discrew   | 0.951       |
+| _mean_obs       | 0.00674     |
+| _min_adv        | -5.35       |
+| _min_discrew    | 0.0166      |
+| _min_obs        | -28.2       |
+| _std_act        | 0.429171    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.302       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 123
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.901      |
+| ExplainedVarOld | 0.733      |
+| KL              | 0.00224942 |
+| Phi_loss        | 85.2278    |
+| PolicyEntropy   | 15.5482    |
+| PolicyLoss      | -0.0028163 |
+| Steps           | 10023      |
+| VarFuncLoss     | 0.0303     |
+| _MeanReward     | 390        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.43401    |
+| _max_adv        | 6.45       |
+| _max_discrew    | 2.42       |
+| _max_obs        | 24.5       |
+| _mean_act       | 0.137629   |
+| _mean_adv       | 0          |
+| _mean_discrew   | 0.916      |
+| _mean_obs       | 0.00666    |
+| _min_adv        | -4.58      |
+| _min_discrew    | 0.0138     |
+| _min_obs        | -19.3      |
+| _std_act        | 0.433217   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.272      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 124
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.909       |
+| ExplainedVarOld | 0.75        |
+| KL              | 0.00190053  |
+| Phi_loss        | 89.527      |
+| PolicyEntropy   | 15.5482     |
+| PolicyLoss      | -0.00606297 |
+| Steps           | 10008       |
+| VarFuncLoss     | 0.0249      |
+| _MeanReward     | 385         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.24414     |
+| _max_adv        | 4.77        |
+| _max_discrew    | 2.37        |
+| _max_obs        | 70.6        |
+| _mean_act       | 0.138164    |
+| _mean_adv       | 2.84e-18    |
+| _mean_discrew   | 0.92        |
+| _mean_obs       | 0.00678     |
+| _min_adv        | -7.44       |
+| _min_discrew    | 0.0166      |
+| _min_obs        | -38.8       |
+| _std_act        | 0.433408    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.282       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 125
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.898      |
+| ExplainedVarOld | 0.747      |
+| KL              | 0.00288928 |
+| Phi_loss        | 92.5751    |
+| PolicyEntropy   | 15.5478    |
+| PolicyLoss      | 0.0449176  |
+| Steps           | 10034      |
+| VarFuncLoss     | 0.0288     |
+| _MeanReward     | 402        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.19433    |
+| _max_adv        | 4.75       |
+| _max_discrew    | 2.64       |
+| _max_obs        | 29.6       |
+| _mean_act       | 0.135651   |
+| _mean_adv       | 0          |
+| _mean_discrew   | 0.95       |
+| _mean_obs       | 0.00456    |
+| _min_adv        | -6.33      |
+| _min_discrew    | 0.0161     |
+| _min_obs        | -23.9      |
+| _std_act        | 0.433862   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.299      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 126
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.907       |
+| ExplainedVarOld | 0.763       |
+| KL              | 0.00215452  |
+| Phi_loss        | 94.7583     |
+| PolicyEntropy   | 15.5472     |
+| PolicyLoss      | 0.000901503 |
+| Steps           | 10048       |
+| VarFuncLoss     | 0.0279      |
+| _MeanReward     | 402         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.14973     |
+| _max_adv        | 5.58        |
+| _max_discrew    | 2.96        |
+| _max_obs        | 39.3        |
+| _mean_act       | 0.136427    |
+| _mean_adv       | 1.13e-17    |
+| _mean_discrew   | 0.957       |
+| _mean_obs       | 0.00617     |
+| _min_adv        | -5.8        |
+| _min_discrew    | 0.0165      |
+| _min_obs        | -20         |
+| _std_act        | 0.432216    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.309       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 127
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.912      |
+| ExplainedVarOld | 0.756      |
+| KL              | 0.00169901 |
+| Phi_loss        | 88.8542    |
+| PolicyEntropy   | 15.5469    |
+| PolicyLoss      | 0.00185777 |
+| Steps           | 10035      |
+| VarFuncLoss     | 0.0272     |
+| _MeanReward     | 386        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.08634    |
+| _max_adv        | 4.66       |
+| _max_discrew    | 2.51       |
+| _max_obs        | 34.4       |
+| _mean_act       | 0.132623   |
+| _mean_adv       | 1.98e-17   |
+| _mean_discrew   | 0.914      |
+| _mean_obs       | 0.00583    |
+| _min_adv        | -4.62      |
+| _min_discrew    | 0.0101     |
+| _min_obs        | -19.6      |
+| _std_act        | 0.43747    |
+| _std_adv        | 1          |
+| _std_discrew    | 0.269      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 128
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.908       |
+| ExplainedVarOld | 0.759       |
+| KL              | 0.00214933  |
+| Phi_loss        | 91.6688     |
+| PolicyEntropy   | 15.5468     |
+| PolicyLoss      | -0.00219599 |
+| Steps           | 10000       |
+| VarFuncLoss     | 0.0249      |
+| _MeanReward     | 403         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.29821     |
+| _max_adv        | 5.04        |
+| _max_discrew    | 3.15        |
+| _max_obs        | 35.3        |
+| _mean_act       | 0.138369    |
+| _mean_adv       | -5.68e-18   |
+| _mean_discrew   | 0.959       |
+| _mean_obs       | 0.00491     |
+| _min_adv        | -5.12       |
+| _min_discrew    | 0.0168      |
+| _min_obs        | -22.4       |
+| _std_act        | 0.435324    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.317       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 129
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.911       |
+| ExplainedVarOld | 0.755       |
+| KL              | 0.00191823  |
+| Phi_loss        | 92.1776     |
+| PolicyEntropy   | 15.5468     |
+| PolicyLoss      | -0.00365373 |
+| Steps           | 10061       |
+| VarFuncLoss     | 0.0281      |
+| _MeanReward     | 394         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.23267     |
+| _max_adv        | 4.53        |
+| _max_discrew    | 2.43        |
+| _max_obs        | 38.4        |
+| _mean_act       | 0.139843    |
+| _mean_adv       | 1.55e-17    |
+| _mean_discrew   | 0.927       |
+| _mean_obs       | 0.00554     |
+| _min_adv        | -5.04       |
+| _min_discrew    | 0.0167      |
+| _min_obs        | -48.7       |
+| _std_act        | 0.430865    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.275       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 130
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.913       |
+| ExplainedVarOld | 0.772       |
+| KL              | 0.0016382   |
+| Phi_loss        | 93.6317     |
+| PolicyEntropy   | 15.5469     |
+| PolicyLoss      | -0.00269726 |
+| Steps           | 10072       |
+| VarFuncLoss     | 0.0238      |
+| _MeanReward     | 410         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.53948     |
+| _max_adv        | 5.76        |
+| _max_discrew    | 3.21        |
+| _max_obs        | 19.8        |
+| _mean_act       | 0.144079    |
+| _mean_adv       | 1.13e-17    |
+| _mean_discrew   | 0.972       |
+| _mean_obs       | 0.005       |
+| _min_adv        | -4.22       |
+| _min_discrew    | 0.00989     |
+| _min_obs        | -19.8       |
+| _std_act        | 0.430702    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.333       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 131
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.91        |
+| ExplainedVarOld | 0.746       |
+| KL              | 0.00202108  |
+| Phi_loss        | 87.9347     |
+| PolicyEntropy   | 15.5469     |
+| PolicyLoss      | -0.00247977 |
+| Steps           | 10012       |
+| VarFuncLoss     | 0.0301      |
+| _MeanReward     | 406         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.51874     |
+| _max_adv        | 4.67        |
+| _max_discrew    | 2.75        |
+| _max_obs        | 34.2        |
+| _mean_act       | 0.137504    |
+| _mean_adv       | 1.14e-17    |
+| _mean_discrew   | 0.965       |
+| _mean_obs       | 0.0052      |
+| _min_adv        | -5.53       |
+| _min_discrew    | 0.0168      |
+| _min_obs        | -25.2       |
+| _std_act        | 0.432678    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.312       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 132
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.911      |
+| ExplainedVarOld | 0.74       |
+| KL              | 0.00204332 |
+| Phi_loss        | 83.7483    |
+| PolicyEntropy   | 15.5468    |
+| PolicyLoss      | 0.00350257 |
+| Steps           | 10028      |
+| VarFuncLoss     | 0.0278     |
+| _MeanReward     | 419        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.22927    |
+| _max_adv        | 4.81       |
+| _max_discrew    | 2.88       |
+| _max_obs        | 23.4       |
+| _mean_act       | 0.142779   |
+| _mean_adv       | -1.13e-17  |
+| _mean_discrew   | 0.985      |
+| _mean_obs       | 0.00505    |
+| _min_adv        | -4.65      |
+| _min_discrew    | 0.0169     |
+| _min_obs        | -23.6      |
+| _std_act        | 0.432061   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.322      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 133
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.908       |
+| ExplainedVarOld | 0.751       |
+| KL              | 0.00196349  |
+| Phi_loss        | 86.5826     |
+| PolicyEntropy   | 15.5467     |
+| PolicyLoss      | -0.00127555 |
+| Steps           | 10014       |
+| VarFuncLoss     | 0.0295      |
+| _MeanReward     | 409         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.29052     |
+| _max_adv        | 5.58        |
+| _max_discrew    | 2.71        |
+| _max_obs        | 23.5        |
+| _mean_act       | 0.142746    |
+| _mean_adv       | -2.27e-17   |
+| _mean_discrew   | 0.965       |
+| _mean_obs       | 0.00515     |
+| _min_adv        | -6.68       |
+| _min_discrew    | 0.0136      |
+| _min_obs        | -31.8       |
+| _std_act        | 0.430824    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.305       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 134
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.906       |
+| ExplainedVarOld | 0.735       |
+| KL              | 0.0019202   |
+| Phi_loss        | 83.2637     |
+| PolicyEntropy   | 15.5467     |
+| PolicyLoss      | -0.00185786 |
+| Steps           | 10067       |
+| VarFuncLoss     | 0.0287      |
+| _MeanReward     | 413         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.36605     |
+| _max_adv        | 4.82        |
+| _max_discrew    | 2.53        |
+| _max_obs        | 36.9        |
+| _mean_act       | 0.142217    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.963       |
+| _mean_obs       | 0.00635     |
+| _min_adv        | -4.31       |
+| _min_discrew    | 0.0101      |
+| _min_obs        | -30.9       |
+| _std_act        | 0.435468    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.297       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 135
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.911      |
+| ExplainedVarOld | 0.762      |
+| KL              | 0.00224667 |
+| Phi_loss        | 88.7918    |
+| PolicyEntropy   | 15.5468    |
+| PolicyLoss      | -0.0045327 |
+| Steps           | 10050      |
+| VarFuncLoss     | 0.0267     |
+| _MeanReward     | 404        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.5672     |
+| _max_adv        | 5.21       |
+| _max_discrew    | 2.65       |
+| _max_obs        | 26.6       |
+| _mean_act       | 0.137644   |
+| _mean_adv       | 0          |
+| _mean_discrew   | 0.968      |
+| _mean_obs       | 0.00573    |
+| _min_adv        | -4.76      |
+| _min_discrew    | 0.0161     |
+| _min_obs        | -30        |
+| _std_act        | 0.432141   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.327      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 136
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.913       |
+| ExplainedVarOld | 0.772       |
+| KL              | 0.0020849   |
+| Phi_loss        | 87.5444     |
+| PolicyEntropy   | 15.5468     |
+| PolicyLoss      | -0.00173679 |
+| Steps           | 10113       |
+| VarFuncLoss     | 0.0283      |
+| _MeanReward     | 430         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.49756     |
+| _max_adv        | 4.75        |
+| _max_discrew    | 2.63        |
+| _max_obs        | 24.2        |
+| _mean_act       | 0.140945    |
+| _mean_adv       | -1.12e-17   |
+| _mean_discrew   | 1           |
+| _mean_obs       | 0.00517     |
+| _min_adv        | -4.7        |
+| _min_discrew    | 0.0162      |
+| _min_obs        | -22.9       |
+| _std_act        | 0.433927    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.314       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 137
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.913       |
+| ExplainedVarOld | 0.786       |
+| KL              | 0.00253579  |
+| Phi_loss        | 87.3001     |
+| PolicyEntropy   | 15.5466     |
+| PolicyLoss      | -0.00298616 |
+| Steps           | 10038       |
+| VarFuncLoss     | 0.0276      |
+| _MeanReward     | 408         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.13397     |
+| _max_adv        | 4.47        |
+| _max_discrew    | 3.16        |
+| _max_obs        | 28.3        |
+| _mean_act       | 0.139689    |
+| _mean_adv       | -2.83e-18   |
+| _mean_discrew   | 0.968       |
+| _mean_obs       | 0.00471     |
+| _min_adv        | -4.65       |
+| _min_discrew    | 0.00603     |
+| _min_obs        | -20.2       |
+| _std_act        | 0.431753    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.329       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 138
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.898      |
+| ExplainedVarOld | 0.692      |
+| KL              | 0.00209716 |
+| Phi_loss        | 81.0285    |
+| PolicyEntropy   | 15.5465    |
+| PolicyLoss      | 0.00345984 |
+| Steps           | 10040      |
+| VarFuncLoss     | 0.0337     |
+| _MeanReward     | 406        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.00095    |
+| _max_adv        | 4.41       |
+| _max_discrew    | 2.6        |
+| _max_obs        | 26.5       |
+| _mean_act       | 0.144213   |
+| _mean_adv       | -1.42e-17  |
+| _mean_discrew   | 0.949      |
+| _mean_obs       | 0.00611    |
+| _min_adv        | -5.39      |
+| _min_discrew    | 0.0119     |
+| _min_obs        | -21.5      |
+| _std_act        | 0.434447   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.287      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 139
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.919      |
+| ExplainedVarOld | 0.798      |
+| KL              | 0.00211435 |
+| Phi_loss        | 89.2173    |
+| PolicyEntropy   | 15.5465    |
+| PolicyLoss      | -0.0016393 |
+| Steps           | 10020      |
+| VarFuncLoss     | 0.0233     |
+| _MeanReward     | 413        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.07957    |
+| _max_adv        | 4.32       |
+| _max_discrew    | 3.05       |
+| _max_obs        | 22         |
+| _mean_act       | 0.139533   |
+| _mean_adv       | -4.25e-18  |
+| _mean_discrew   | 0.988      |
+| _mean_obs       | 0.00511    |
+| _min_adv        | -5.36      |
+| _min_discrew    | 0.01       |
+| _min_obs        | -19.6      |
+| _std_act        | 0.435127   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.35       |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 140
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.898      |
+| ExplainedVarOld | 0.688      |
+| KL              | 0.00250315 |
+| Phi_loss        | 83.6658    |
+| PolicyEntropy   | 15.5464    |
+| PolicyLoss      | -0.0016312 |
+| Steps           | 10068      |
+| VarFuncLoss     | 0.0356     |
+| _MeanReward     | 402        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.24575    |
+| _max_adv        | 4.95       |
+| _max_discrew    | 2.6        |
+| _max_obs        | 31.9       |
+| _mean_act       | 0.140424   |
+| _mean_adv       | 1.41e-18   |
+| _mean_discrew   | 0.95       |
+| _mean_obs       | 0.00484    |
+| _min_adv        | -7.53      |
+| _min_discrew    | 0.0162     |
+| _min_obs        | -28.6      |
+| _std_act        | 0.435357   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.301      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 141
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.894       |
+| ExplainedVarOld | 0.734       |
+| KL              | 0.00240984  |
+| Phi_loss        | 87.2218     |
+| PolicyEntropy   | 15.5465     |
+| PolicyLoss      | -0.00603713 |
+| Steps           | 10007       |
+| VarFuncLoss     | 0.0321      |
+| _MeanReward     | 406         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.14318     |
+| _max_adv        | 4.49        |
+| _max_discrew    | 2.9         |
+| _max_obs        | 29.7        |
+| _mean_act       | 0.139689    |
+| _mean_adv       | -1.56e-17   |
+| _mean_discrew   | 0.958       |
+| _mean_obs       | 0.0057      |
+| _min_adv        | -4.66       |
+| _min_discrew    | 0.0155      |
+| _min_obs        | -41.6       |
+| _std_act        | 0.435048    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.302       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 142
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.905      |
+| ExplainedVarOld | 0.734      |
+| KL              | 0.00248211 |
+| Phi_loss        | 76.7345    |
+| PolicyEntropy   | 15.5464    |
+| PolicyLoss      | -0.0038785 |
+| Steps           | 10012      |
+| VarFuncLoss     | 0.0287     |
+| _MeanReward     | 400        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.55058    |
+| _max_adv        | 4.73       |
+| _max_discrew    | 2.54       |
+| _max_obs        | 42.4       |
+| _mean_act       | 0.141421   |
+| _mean_adv       | -1.42e-18  |
+| _mean_discrew   | 0.945      |
+| _mean_obs       | 0.00529    |
+| _min_adv        | -5.57      |
+| _min_discrew    | 0.0162     |
+| _min_obs        | -33.6      |
+| _std_act        | 0.438635   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.296      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 143
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.902       |
+| ExplainedVarOld | 0.731       |
+| KL              | 0.00302078  |
+| Phi_loss        | 78.474      |
+| PolicyEntropy   | 15.5465     |
+| PolicyLoss      | 8.71557e-05 |
+| Steps           | 10061       |
+| VarFuncLoss     | 0.029       |
+| _MeanReward     | 397         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.40648     |
+| _max_adv        | 4.88        |
+| _max_discrew    | 2.72        |
+| _max_obs        | 24.5        |
+| _mean_act       | 0.137473    |
+| _mean_adv       | 1.41e-18    |
+| _mean_discrew   | 0.939       |
+| _mean_obs       | 0.00335     |
+| _min_adv        | -6.07       |
+| _min_discrew    | 0.0158      |
+| _min_obs        | -34.8       |
+| _std_act        | 0.435203    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.29        |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 144
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.911      |
+| ExplainedVarOld | 0.767      |
+| KL              | 0.00267373 |
+| Phi_loss        | 83.5952    |
+| PolicyEntropy   | 15.5464    |
+| PolicyLoss      | 0.0025648  |
+| Steps           | 10031      |
+| VarFuncLoss     | 0.0257     |
+| _MeanReward     | 418        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.36486    |
+| _max_adv        | 6.2        |
+| _max_discrew    | 2.45       |
+| _max_obs        | 24.3       |
+| _mean_act       | 0.149131   |
+| _mean_adv       | -1.13e-17  |
+| _mean_discrew   | 0.965      |
+| _mean_obs       | 0.00631    |
+| _min_adv        | -5.06      |
+| _min_discrew    | 0.0133     |
+| _min_obs        | -19.8      |
+| _std_act        | 0.434042   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.293      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 145
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.919      |
+| ExplainedVarOld | 0.792      |
+| KL              | 0.00276164 |
+| Phi_loss        | 82.4557    |
+| PolicyEntropy   | 15.5463    |
+| PolicyLoss      | 0.0047843  |
+| Steps           | 10054      |
+| VarFuncLoss     | 0.0237     |
+| _MeanReward     | 429        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.40308    |
+| _max_adv        | 4.33       |
+| _max_discrew    | 2.85       |
+| _max_obs        | 26.9       |
+| _mean_act       | 0.139138   |
+| _mean_adv       | -1.13e-17  |
+| _mean_discrew   | 1          |
+| _mean_obs       | 0.00613    |
+| _min_adv        | -5.08      |
+| _min_discrew    | 0.0114     |
+| _min_obs        | -29.2      |
+| _std_act        | 0.435556   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.337      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 146
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.917       |
+| ExplainedVarOld | 0.761       |
+| KL              | 0.00280715  |
+| Phi_loss        | 71.6417     |
+| PolicyEntropy   | 15.5464     |
+| PolicyLoss      | -0.00700978 |
+| Steps           | 10024       |
+| VarFuncLoss     | 0.0279      |
+| _MeanReward     | 415         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.62074     |
+| _max_adv        | 4.87        |
+| _max_discrew    | 2.68        |
+| _max_obs        | 23.3        |
+| _mean_act       | 0.139928    |
+| _mean_adv       | 2.27e-17    |
+| _mean_discrew   | 0.976       |
+| _mean_obs       | 0.00563     |
+| _min_adv        | -5.78       |
+| _min_discrew    | 0.0158      |
+| _min_obs        | -27.3       |
+| _std_act        | 0.435894    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.312       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 147
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.915       |
+| ExplainedVarOld | 0.77        |
+| KL              | 0.00245137  |
+| Phi_loss        | 69.5949     |
+| PolicyEntropy   | 15.5463     |
+| PolicyLoss      | 0.000723542 |
+| Steps           | 10087       |
+| VarFuncLoss     | 0.0266      |
+| _MeanReward     | 424         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.35655     |
+| _max_adv        | 4.56        |
+| _max_discrew    | 2.93        |
+| _max_obs        | 29.3        |
+| _mean_act       | 0.1476      |
+| _mean_adv       | -8.45e-18   |
+| _mean_discrew   | 0.992       |
+| _mean_obs       | 0.00587     |
+| _min_adv        | -5.33       |
+| _min_discrew    | 0.0166      |
+| _min_obs        | -26.4       |
+| _std_act        | 0.43389     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.319       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 148
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.913       |
+| ExplainedVarOld | 0.744       |
+| KL              | 0.00255768  |
+| Phi_loss        | 72.1043     |
+| PolicyEntropy   | 15.5463     |
+| PolicyLoss      | -0.00158191 |
+| Steps           | 10098       |
+| VarFuncLoss     | 0.0281      |
+| _MeanReward     | 416         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.4869      |
+| _max_adv        | 4.66        |
+| _max_discrew    | 2.56        |
+| _max_obs        | 22.3        |
+| _mean_act       | 0.146655    |
+| _mean_adv       | 1.69e-17    |
+| _mean_discrew   | 0.972       |
+| _mean_obs       | 0.00552     |
+| _min_adv        | -4.86       |
+| _min_discrew    | 0.0146      |
+| _min_obs        | -20.9       |
+| _std_act        | 0.434965    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.304       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 149
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.911       |
+| ExplainedVarOld | 0.775       |
+| KL              | 0.00205532  |
+| Phi_loss        | 80.6404     |
+| PolicyEntropy   | 15.5463     |
+| PolicyLoss      | -0.00167504 |
+| Steps           | 10020       |
+| VarFuncLoss     | 0.0273      |
+| _MeanReward     | 412         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.21364     |
+| _max_adv        | 4.14        |
+| _max_discrew    | 2.52        |
+| _max_obs        | 28.1        |
+| _mean_act       | 0.143687    |
+| _mean_adv       | 2.27e-17    |
+| _mean_discrew   | 0.963       |
+| _mean_obs       | 0.00557     |
+| _min_adv        | -4.67       |
+| _min_discrew    | 0.0134      |
+| _min_obs        | -27.3       |
+| _std_act        | 0.43623     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.296       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 150
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.911       |
+| ExplainedVarOld | 0.771       |
+| KL              | 0.00241608  |
+| Phi_loss        | 67.9309     |
+| PolicyEntropy   | 15.5463     |
+| PolicyLoss      | -0.00140428 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.0266      |
+| _MeanReward     | 424         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.34118     |
+| _max_adv        | 5.12        |
+| _max_discrew    | 2.67        |
+| _max_obs        | 23.2        |
+| _mean_act       | 0.145219    |
+| _mean_adv       | 1.99e-17    |
+| _mean_discrew   | 0.988       |
+| _mean_obs       | 0.0051      |
+| _min_adv        | -4.74       |
+| _min_discrew    | 0.0159      |
+| _min_obs        | -24.3       |
+| _std_act        | 0.436509    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.321       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 151
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.917       |
+| ExplainedVarOld | 0.775       |
+| KL              | 0.00301702  |
+| Phi_loss        | 65.7174     |
+| PolicyEntropy   | 15.5462     |
+| PolicyLoss      | -0.00288928 |
+| Steps           | 10012       |
+| VarFuncLoss     | 0.0267      |
+| _MeanReward     | 426         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.26377     |
+| _max_adv        | 4.32        |
+| _max_discrew    | 3.14        |
+| _max_obs        | 24.7        |
+| _mean_act       | 0.144462    |
+| _mean_adv       | 8.52e-18    |
+| _mean_discrew   | 0.995       |
+| _mean_obs       | 0.00516     |
+| _min_adv        | -4.94       |
+| _min_discrew    | 0.0154      |
+| _min_obs        | -23.6       |
+| _std_act        | 0.43553     |
+| _std_adv        | 1           |
+| _std_discrew    | 0.341       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 152
+Draw Samples..
+--------------------------------
+| Beta            | 0.296      |
+| ExplainedVarNew | 0.905      |
+| ExplainedVarOld | 0.747      |
+| KL              | 0.00973908 |
+| Phi_loss        | 191.5      |
+| PolicyEntropy   | 15.545     |
+| PolicyLoss      | -0.559854  |
+| Steps           | 10060      |
+| VarFuncLoss     | 0.0325     |
+| _MeanReward     | 397        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.57043    |
+| _max_adv        | 4.84       |
+| _max_discrew    | 2.57       |
+| _max_obs        | 24.8       |
+| _mean_act       | 0.143816   |
+| _mean_adv       | -5.65e-18  |
+| _mean_discrew   | 0.936      |
+| _mean_obs       | 0.00434    |
+| _min_adv        | -7.16      |
+| _min_discrew    | 0.0148     |
+| _min_obs        | -18        |
+| _std_act        | 0.43853    |
+| _std_adv        | 1          |
+| _std_discrew    | 0.288      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 153
+Draw Samples..
+--------------------------------
+| Beta            | 0.296      |
+| ExplainedVarNew | 0.907      |
+| ExplainedVarOld | 0.773      |
+| KL              | 0.0038196  |
+| Phi_loss        | 86.095     |
+| PolicyEntropy   | 15.5415    |
+| PolicyLoss      | 0.00196685 |
+| Steps           | 10056      |
+| VarFuncLoss     | 0.0267     |
+| _MeanReward     | 415        |
+| _lr_multiplier  | 1          |
+| _max_act        | 2.9726     |
+| _max_adv        | 4.68       |
+| _max_discrew    | 2.71       |
+| _max_obs        | 27.9       |
+| _mean_act       | 0.1448     |
+| _mean_adv       | -1.41e-18  |
+| _mean_discrew   | 0.977      |
+| _mean_obs       | 0.00544    |
+| _min_adv        | -5.26      |
+| _min_discrew    | 0.0163     |
+| _min_obs        | -24.6      |
+| _std_act        | 0.438672   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.322      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 154
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.904       |
+| ExplainedVarOld | 0.775       |
+| KL              | 0.00173987  |
+| Phi_loss        | 87.8273     |
+| PolicyEntropy   | 15.5408     |
+| PolicyLoss      | -0.00768665 |
+| Steps           | 10033       |
+| VarFuncLoss     | 0.0309      |
+| _MeanReward     | 425         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.8021      |
+| _max_adv        | 4.74        |
+| _max_discrew    | 3.03        |
+| _max_obs        | 31.1        |
+| _mean_act       | 0.141406    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 1           |
+| _mean_obs       | 0.00421     |
+| _min_adv        | -5.13       |
+| _min_discrew    | 0.0137      |
+| _min_obs        | -19.9       |
+| _std_act        | 0.435703    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.342       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 155
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.912       |
+| ExplainedVarOld | 0.754       |
+| KL              | 0.00150636  |
+| Phi_loss        | 83.9802     |
+| PolicyEntropy   | 15.5407     |
+| PolicyLoss      | -0.00239483 |
+| Steps           | 10117       |
+| VarFuncLoss     | 0.0302      |
+| _MeanReward     | 424         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.46219     |
+| _max_adv        | 4.88        |
+| _max_discrew    | 2.73        |
+| _max_obs        | 32.5        |
+| _mean_act       | 0.14555     |
+| _mean_adv       | -1.12e-17   |
+| _mean_discrew   | 0.978       |
+| _mean_obs       | 0.00546     |
+| _min_adv        | -5.82       |
+| _min_discrew    | 0.0112      |
+| _min_obs        | -33.9       |
+| _std_act        | 0.438786    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.3         |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 156
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.929       |
+| ExplainedVarOld | 0.794       |
+| KL              | 0.0018671   |
+| Phi_loss        | 77.4709     |
+| PolicyEntropy   | 15.5407     |
+| PolicyLoss      | -0.00084412 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.0214      |
+| _MeanReward     | 429         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.1702      |
+| _max_adv        | 5.15        |
+| _max_discrew    | 2.8         |
+| _max_obs        | 24.5        |
+| _mean_act       | 0.139801    |
+| _mean_adv       | -1.42e-17   |
+| _mean_discrew   | 0.995       |
+| _mean_obs       | 0.00412     |
+| _min_adv        | -5.01       |
+| _min_discrew    | 0.013       |
+| _min_obs        | -24.2       |
+| _std_act        | 0.438377    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.324       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 157
+Draw Samples..
+---------------------------------
+| Beta            | 0.296       |
+| ExplainedVarNew | 0.928       |
+| ExplainedVarOld | 0.79        |
+| KL              | 0.00189614  |
+| Phi_loss        | 78.2085     |
+| PolicyEntropy   | 15.5406     |
+| PolicyLoss      | -0.00399821 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.0234      |
+| _MeanReward     | 428         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.44082     |
+| _max_adv        | 4.78        |
+| _max_discrew    | 2.74        |
+| _max_obs        | 22.7        |
+| _mean_act       | 0.144991    |
+| _mean_adv       | -5.67e-18   |
+| _mean_discrew   | 0.994       |
+| _mean_obs       | 0.00461     |
+| _min_adv        | -5.25       |
+| _min_discrew    | 0.015       |
+| _min_obs        | -22         |
+| _std_act        | 0.433422    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.318       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 158
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.913       |
+| ExplainedVarOld | 0.77        |
+| KL              | 0.00145261  |
+| Phi_loss        | 76.9028     |
+| PolicyEntropy   | 15.5405     |
+| PolicyLoss      | -0.00402058 |
+| Steps           | 10078       |
+| VarFuncLoss     | 0.0276      |
+| _MeanReward     | 420         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.44699     |
+| _max_adv        | 4.4         |
+| _max_discrew    | 2.61        |
+| _max_obs        | 31          |
+| _mean_act       | 0.142764    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.986       |
+| _mean_obs       | 0.00442     |
+| _min_adv        | -5.21       |
+| _min_discrew    | 0.0162      |
+| _min_obs        | -38.6       |
+| _std_act        | 0.444826    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.314       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 159
+Draw Samples..
+----------------------------------
+| Beta            | 0.198        |
+| ExplainedVarNew | 0.916        |
+| ExplainedVarOld | 0.783        |
+| KL              | 0.00269504   |
+| Phi_loss        | 75.5183      |
+| PolicyEntropy   | 15.5407      |
+| PolicyLoss      | -0.000336855 |
+| Steps           | 10061        |
+| VarFuncLoss     | 0.0265       |
+| _MeanReward     | 412          |
+| _lr_multiplier  | 1            |
+| _max_act        | 3.17966      |
+| _max_adv        | 3.89         |
+| _max_discrew    | 2.58         |
+| _max_obs        | 22.8         |
+| _mean_act       | 0.138373     |
+| _mean_adv       | -5.65e-18    |
+| _mean_discrew   | 0.964        |
+| _mean_obs       | 0.004        |
+| _min_adv        | -4.59        |
+| _min_discrew    | 0.0171       |
+| _min_obs        | -18.4        |
+| _std_act        | 0.438694     |
+| _std_adv        | 1            |
+| _std_discrew    | 0.303        |
+----------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 160
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.918       |
+| ExplainedVarOld | 0.764       |
+| KL              | 0.00240205  |
+| Phi_loss        | 73.8455     |
+| PolicyEntropy   | 15.5407     |
+| PolicyLoss      | -0.00231825 |
+| Steps           | 10011       |
+| VarFuncLoss     | 0.025       |
+| _MeanReward     | 423         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.27256     |
+| _max_adv        | 4.36        |
+| _max_discrew    | 2.49        |
+| _max_obs        | 33.1        |
+| _mean_act       | 0.142979    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 0.978       |
+| _mean_obs       | 0.0039      |
+| _min_adv        | -5.92       |
+| _min_discrew    | 0.0119      |
+| _min_obs        | -32.9       |
+| _std_act        | 0.436229    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.299       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 161
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.926       |
+| ExplainedVarOld | 0.798       |
+| KL              | 0.0026324   |
+| Phi_loss        | 69.9984     |
+| PolicyEntropy   | 15.5405     |
+| PolicyLoss      | 0.000294098 |
+| Steps           | 10072       |
+| VarFuncLoss     | 0.0222      |
+| _MeanReward     | 413         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.30813     |
+| _max_adv        | 5.18        |
+| _max_discrew    | 3.19        |
+| _max_obs        | 28.7        |
+| _mean_act       | 0.141472    |
+| _mean_adv       | 1.69e-17    |
+| _mean_discrew   | 0.979       |
+| _mean_obs       | 0.00453     |
+| _min_adv        | -5.46       |
+| _min_discrew    | 0.0154      |
+| _min_obs        | -28.4       |
+| _std_act        | 0.439503    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.332       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 162
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.909       |
+| ExplainedVarOld | 0.722       |
+| KL              | 0.00259908  |
+| Phi_loss        | 69.2534     |
+| PolicyEntropy   | 15.5405     |
+| PolicyLoss      | 0.000146599 |
+| Steps           | 10085       |
+| VarFuncLoss     | 0.0303      |
+| _MeanReward     | 425         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.33898     |
+| _max_adv        | 4.64        |
+| _max_discrew    | 2.73        |
+| _max_obs        | 26.6        |
+| _mean_act       | 0.1456      |
+| _mean_adv       | 1.69e-17    |
+| _mean_discrew   | 0.993       |
+| _mean_obs       | 0.0041      |
+| _min_adv        | -5.18       |
+| _min_discrew    | 0.0125      |
+| _min_obs        | -23.4       |
+| _std_act        | 0.441164    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.321       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 163
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.913      |
+| ExplainedVarOld | 0.77       |
+| KL              | 0.00253869 |
+| Phi_loss        | 74.074     |
+| PolicyEntropy   | 15.5406    |
+| PolicyLoss      | -0.0029916 |
+| Steps           | 10069      |
+| VarFuncLoss     | 0.0279     |
+| _MeanReward     | 418        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.12215    |
+| _max_adv        | 4.55       |
+| _max_discrew    | 2.78       |
+| _max_obs        | 19.4       |
+| _mean_act       | 0.142991   |
+| _mean_adv       | -1.13e-17  |
+| _mean_discrew   | 0.98       |
+| _mean_obs       | 0.00424    |
+| _min_adv        | -5.53      |
+| _min_discrew    | 0.0125     |
+| _min_obs        | -19        |
+| _std_act        | 0.43945    |
+| _std_adv        | 1          |
+| _std_discrew    | 0.316      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 164
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.92        |
+| ExplainedVarOld | 0.781       |
+| KL              | 0.00275958  |
+| Phi_loss        | 76.3308     |
+| PolicyEntropy   | 15.5406     |
+| PolicyLoss      | -0.00310755 |
+| Steps           | 10003       |
+| VarFuncLoss     | 0.0254      |
+| _MeanReward     | 431         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.97093     |
+| _max_adv        | 4.26        |
+| _max_discrew    | 2.7         |
+| _max_obs        | 25          |
+| _mean_act       | 0.139751    |
+| _mean_adv       | 1.99e-17    |
+| _mean_discrew   | 0.997       |
+| _mean_obs       | 0.00317     |
+| _min_adv        | -5.38       |
+| _min_discrew    | 0.0165      |
+| _min_obs        | -30.1       |
+| _std_act        | 0.439026    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.316       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 165
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.918       |
+| ExplainedVarOld | 0.753       |
+| KL              | 0.00252105  |
+| Phi_loss        | 65.8328     |
+| PolicyEntropy   | 15.5405     |
+| PolicyLoss      | -0.00270908 |
+| Steps           | 10021       |
+| VarFuncLoss     | 0.026       |
+| _MeanReward     | 440         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.28234     |
+| _max_adv        | 4.68        |
+| _max_discrew    | 3.1         |
+| _max_obs        | 32.2        |
+| _mean_act       | 0.14535     |
+| _mean_adv       | -3.69e-17   |
+| _mean_discrew   | 1.03        |
+| _mean_obs       | 0.00476     |
+| _min_adv        | -4.86       |
+| _min_discrew    | 0.0138      |
+| _min_obs        | -31.4       |
+| _std_act        | 0.438197    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.343       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 166
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.931      |
+| ExplainedVarOld | 0.786      |
+| KL              | 0.00259225 |
+| Phi_loss        | 65.1556    |
+| PolicyEntropy   | 15.5402    |
+| PolicyLoss      | 0.00277185 |
+| Steps           | 10076      |
+| VarFuncLoss     | 0.024      |
+| _MeanReward     | 441        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.53708    |
+| _max_adv        | 5.51       |
+| _max_discrew    | 3.23       |
+| _max_obs        | 28         |
+| _mean_act       | 0.145386   |
+| _mean_adv       | 2.82e-18   |
+| _mean_discrew   | 1.05       |
+| _mean_obs       | 0.00407    |
+| _min_adv        | -5.32      |
+| _min_discrew    | 0.0163     |
+| _min_obs        | -31.5      |
+| _std_act        | 0.436621   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.378      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 167
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.916       |
+| ExplainedVarOld | 0.756       |
+| KL              | 0.0030589   |
+| Phi_loss        | 63.9345     |
+| PolicyEntropy   | 15.5399     |
+| PolicyLoss      | -0.00121819 |
+| Steps           | 10026       |
+| VarFuncLoss     | 0.0317      |
+| _MeanReward     | 430         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.23519     |
+| _max_adv        | 5.59        |
+| _max_discrew    | 2.89        |
+| _max_obs        | 70          |
+| _mean_act       | 0.14519     |
+| _mean_adv       | -2.83e-18   |
+| _mean_discrew   | 0.999       |
+| _mean_obs       | 0.00351     |
+| _min_adv        | -4.83       |
+| _min_discrew    | 0.0154      |
+| _min_obs        | -48.4       |
+| _std_act        | 0.436871    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.321       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 168
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.919      |
+| ExplainedVarOld | 0.76       |
+| KL              | 0.00321359 |
+| Phi_loss        | 64.4072    |
+| PolicyEntropy   | 15.5395    |
+| PolicyLoss      | 0.00231129 |
+| Steps           | 10081      |
+| VarFuncLoss     | 0.0262     |
+| _MeanReward     | 421        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.05917    |
+| _max_adv        | 4.2        |
+| _max_discrew    | 2.62       |
+| _max_obs        | 19.2       |
+| _mean_act       | 0.145263   |
+| _mean_adv       | -1.69e-17  |
+| _mean_discrew   | 0.991      |
+| _mean_obs       | 0.00483    |
+| _min_adv        | -5.5       |
+| _min_discrew    | 0.0117     |
+| _min_obs        | -20        |
+| _std_act        | 0.441995   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.318      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 169
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.909      |
+| ExplainedVarOld | 0.765      |
+| KL              | 0.00320868 |
+| Phi_loss        | 65.6208    |
+| PolicyEntropy   | 15.5393    |
+| PolicyLoss      | 0.00146813 |
+| Steps           | 10060      |
+| VarFuncLoss     | 0.029      |
+| _MeanReward     | 419        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.35825    |
+| _max_adv        | 4.19       |
+| _max_discrew    | 2.68       |
+| _max_obs        | 25.2       |
+| _mean_act       | 0.14149    |
+| _mean_adv       | 4.24e-18   |
+| _mean_discrew   | 0.983      |
+| _mean_obs       | 0.00409    |
+| _min_adv        | -4.67      |
+| _min_discrew    | 0.0169     |
+| _min_obs        | -31.6      |
+| _std_act        | 0.442695   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.318      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 170
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.913      |
+| ExplainedVarOld | 0.778      |
+| KL              | 0.00297282 |
+| Phi_loss        | 64.8091    |
+| PolicyEntropy   | 15.5392    |
+| PolicyLoss      | 0.00053295 |
+| Steps           | 10046      |
+| VarFuncLoss     | 0.028      |
+| _MeanReward     | 435        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.3818     |
+| _max_adv        | 4.39       |
+| _max_discrew    | 3.12       |
+| _max_obs        | 51         |
+| _mean_act       | 0.146737   |
+| _mean_adv       | 5.66e-18   |
+| _mean_discrew   | 1.02       |
+| _mean_obs       | 0.0046     |
+| _min_adv        | -5.92      |
+| _min_discrew    | 0.015      |
+| _min_obs        | -45        |
+| _std_act        | 0.441379   |
+| _std_adv        | 1          |
+| _std_discrew    | 0.346      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 171
+Draw Samples..
+--------------------------------
+| Beta            | 0.198      |
+| ExplainedVarNew | 0.909      |
+| ExplainedVarOld | 0.746      |
+| KL              | 0.00285979 |
+| Phi_loss        | 68.4071    |
+| PolicyEntropy   | 15.5389    |
+| PolicyLoss      | 0.00154694 |
+| Steps           | 10102      |
+| VarFuncLoss     | 0.032      |
+| _MeanReward     | 425        |
+| _lr_multiplier  | 1          |
+| _max_act        | 3.41237    |
+| _max_adv        | 4.46       |
+| _max_discrew    | 2.78       |
+| _max_obs        | 29.1       |
+| _mean_act       | 0.142173   |
+| _mean_adv       | 2.81e-18   |
+| _mean_discrew   | 1          |
+| _mean_obs       | 0.00373    |
+| _min_adv        | -5.05      |
+| _min_discrew    | 0.0129     |
+| _min_obs        | -17.5      |
+| _std_act        | 0.43574    |
+| _std_adv        | 1          |
+| _std_discrew    | 0.338      |
+--------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 172
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.908       |
+| ExplainedVarOld | 0.732       |
+| KL              | 0.00263896  |
+| Phi_loss        | 64.8154     |
+| PolicyEntropy   | 15.5386     |
+| PolicyLoss      | 0.000404729 |
+| Steps           | 10034       |
+| VarFuncLoss     | 0.0317      |
+| _MeanReward     | 442         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.61097     |
+| _max_adv        | 4.06        |
+| _max_discrew    | 2.77        |
+| _max_obs        | 26.9        |
+| _mean_act       | 0.142606    |
+| _mean_adv       | 5.67e-18    |
+| _mean_discrew   | 1.02        |
+| _mean_obs       | 0.00365     |
+| _min_adv        | -4.85       |
+| _min_discrew    | 0.0157      |
+| _min_obs        | -26.6       |
+| _std_act        | 0.4424      |
+| _std_adv        | 1           |
+| _std_discrew    | 0.324       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 173
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.911       |
+| ExplainedVarOld | 0.751       |
+| KL              | 0.00369245  |
+| Phi_loss        | 72.7198     |
+| PolicyEntropy   | 15.5386     |
+| PolicyLoss      | -0.00745407 |
+| Steps           | 10096       |
+| VarFuncLoss     | 0.0287      |
+| _MeanReward     | 433         |
+| _lr_multiplier  | 1           |
+| _max_act        | 4.17568     |
+| _max_adv        | 4.31        |
+| _max_discrew    | 2.67        |
+| _max_obs        | 32.7        |
+| _mean_act       | 0.144241    |
+| _mean_adv       | -7.04e-18   |
+| _mean_discrew   | 1           |
+| _mean_obs       | 0.00392     |
+| _min_adv        | -7          |
+| _min_discrew    | 0.0135      |
+| _min_obs        | -23.8       |
+| _std_act        | 0.439759    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.324       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 174
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.912       |
+| ExplainedVarOld | 0.765       |
+| KL              | 0.00494099  |
+| Phi_loss        | 92.2959     |
+| PolicyEntropy   | 15.5388     |
+| PolicyLoss      | -0.00979358 |
+| Steps           | 10076       |
+| VarFuncLoss     | 0.0285      |
+| _MeanReward     | 427         |
+| _lr_multiplier  | 1           |
+| _max_act        | 3.98864     |
+| _max_adv        | 5.66        |
+| _max_discrew    | 2.96        |
+| _max_obs        | 24.9        |
+| _mean_act       | 0.147194    |
+| _mean_adv       | 7.4e-18     |
+| _mean_discrew   | 0.991       |
+| _mean_obs       | 0.00333     |
+| _min_adv        | -5.63       |
+| _min_discrew    | 0.0166      |
+| _min_obs        | -20.4       |
+| _std_act        | 0.439235    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.316       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
+--------------------------------
+
+
+#Training Iter 175
+Draw Samples..
+---------------------------------
+| Beta            | 0.198       |
+| ExplainedVarNew | 0.92        |
+| ExplainedVarOld | 0.801       |
+| KL              | 0.00425619  |
+| Phi_loss        | 98.0699     |
+| PolicyEntropy   | 15.5388     |
+| PolicyLoss      | -0.00405453 |
+| Steps           | 10037       |
+| VarFuncLoss     | 0.0253      |
+| _MeanReward     | 435         |
+| _lr_multiplier  | 1           |
+| _max_act        | 4.14811     |
+| _max_adv        | 4.25        |
+| _max_discrew    | 2.75        |
+| _max_obs        | 33.6        |
+| _mean_act       | 0.143302    |
+| _mean_adv       | 0           |
+| _mean_discrew   | 1.02        |
+| _mean_obs       | 0.00372     |
+| _min_adv        | -5.19       |
+| _min_discrew    | 0.00294     |
+| _min_obs        | -27.1       |
+| _std_act        | 0.440592    |
+| _std_adv        | 1           |
+| _std_discrew    | 0.352       |
+---------------------------------
+Starting Training...
+Training Policy for 20 epochs
+Training Phi for 500 epochs
