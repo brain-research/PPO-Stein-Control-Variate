@@ -11,9 +11,6 @@ import matplotlib.patches as mpatches
 import glob
 
 from matplotlib import rc
-# rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
-## for Palatino and other serif fonts use:
-#rc('font',**{'family':'serif','serif':['Palatino']})
 rc('text', usetex=True)
 
 
@@ -53,56 +50,71 @@ for log_file in files:
         print(key, seed)
         results[key].append(result)
 
+# Envs to plot
 envs = ['halfcheetah', 'humanoid']
-envs_titles = {'halfcheetah': 'HalfCheetah-v1', 'walker2d': 'Walker2d', 'humanoid': 'Humanoid-v1'}
-thing_names = {'baseline': 'PPO', 'none': 'Stein (biased)', 'extra-sample': 'Stein (biased, no importance sampling)', 'unbiased': 'Stein (unbiased)', 'unbiased--state-only': 'Stein (unbiased, state-dependent baseline)'}
+envs_titles = {
+    'halfcheetah': 'HalfCheetah-v1',
+    'walker2d': 'Walker2d',
+    'humanoid': 'Humanoid-v1',
+}
+method_names = {
+    'baseline': 'PPO',
+    'none': 'Stein (biased)',
+    'extra-sample': 'Stein (biased, no importance sampling)',
+    'unbiased': 'Stein (unbiased)',
+    'unbiased--state-only': 'Stein (unbiased, state-dependent baseline)'
+}
+
+plot_xlim = {
+    'halfcheetah': 1000,
+    'humanoid': 700,
+}
+
 savgol_window = 7
 colors = {}
-for i, thing in enumerate(['none', 'baseline', 'extra-sample', 'unbiased', 'unbiased--state-only']):
-  colors[thing] = color_list[i]
+for i, method in enumerate(['none', 'baseline', 'extra-sample', 'unbiased', 'unbiased--state-only']):
+  colors[method] = color_list[i]
 
-window_len = 1000
 fig, axes = plt.subplots(1, len(envs), figsize=(15, 6))
 for envidx, env in enumerate(envs):
   ax = axes[envidx]
-  print('envidx', envidx, 'env', env)
+  print('Plotting results for env = %s' % env)
   ys = []
   for k, v in sorted(results.items()):
     if k[0] == env:
       y = [[row['_MeanReward'] for row in res] for res in v]
-      print(len(y))
-      print(len(y[0]))
-      print(len(y[1]))
-      print(len(y[2]))
-      print(len(y[3]))
-      print(len(y[4]))
+      print('%s has results with lengths: %s' % (k[1], str(list(map(len, y)))))
+
       min_len = min([len(x) for x in y])
-      y = [[row['_MeanReward'] for row in res][:min_len] for res in v]
+      win_len = plot_xlim[env]
+      assert(win_len <= min_len)
 
+      # Cut the results down to the plotting length
+      y = [y_i[:win_len] for y_i in y]
       y = np.stack(y)
-      if env == "halfcheetah":
-        win_len = 1000
-      if env == "humanoid":
-        win_len = 700
-      y_z1 = savgol_filter(y.mean(0) + y.std(0), savgol_window, 5)[:win_len]
-      y_z_1 = savgol_filter(y.mean(0) - y.std(0), savgol_window, 5)[:win_len]
-      y_max = savgol_filter(y.max(0), savgol_window, 5)[:win_len]
-      y_min = savgol_filter(y.min(0), savgol_window, 5)[:win_len]
-      y_mean = savgol_filter(y.mean(0), savgol_window, 5)[:win_len]
-      # ax.plot(np.arange(len(res)) * 5, ema(res, 0.95), color=colors[k[1]], label='-'.join(k) if j == 0 else None)
 
-      ax.plot(np.arange(min_len)[:win_len] * 10, y_mean, color=colors[k[1]], label=thing_names[k[1]])
-      ax.fill_between(np.arange(min_len)[:win_len] * 10, y_mean, np.where(y_z1 > y_max, y_max, y_z1), color=colors[k[1]], alpha=0.2)
-      ax.fill_between(np.arange(min_len)[:win_len] * 10, np.where(y_z_1 < y_min, y_min, y_z_1), y_mean, color=colors[k[1]], alpha=0.2)
+      # Plot the data
+      smooth = lambda y: savgol_filter(y, savgol_window, 5)
+
+      y_max = smooth(y.max(0))
+      y_min = smooth(y.min(0))
+      y_plus_std = np.clip(smooth(y.mean(0) + y.std(0)),
+                           y_min,
+                           y_max)
+      y_minus_std = np.clip(smooth(y.mean(0) - y.std(0)),
+                            y_min,
+                            y_max)
+      y_mean = smooth(y.mean(0))
+
+      ax.plot(np.arange(win_len) * 10, y_mean,
+              color=colors[k[1]],
+              label=method_names[k[1]])
+      ax.fill_between(np.arange(win_len) * 10,
+                      y_minus_std, y_plus_std,
+                      color=colors[k[1]], alpha=0.2)
+
+  # Plot options
   ax.legend(loc='upper left', prop={'size': 14})
-
-  # Sorting and plotting legend entries
-  handles, labels = axes[envidx].get_legend_handles_labels()
-  import operator
-  hl = sorted(zip(handles, labels),
-              key=operator.itemgetter(1))
-  handles2, labels2 = zip(*hl)
-  # ax.legend(handles2, labels2, loc='upper left')
   ax.set_title(envs_titles[env], fontsize=18)
   ax.tick_params(axis='both', which='major', labelsize=12)
   ax.tick_params(axis='both', which='minor', labelsize=12)
@@ -111,18 +123,17 @@ for envidx, env in enumerate(envs):
   ax.grid(alpha=0.5)
 
 # Uncomment this to generate the non-mini plot.
-"""
-h0 = mpatches.Patch(color=color_list[0], label='Stein (biased)')
-h1 = mpatches.Patch(color=color_list[1], label='PPO')
-h2 = mpatches.Patch(color=color_list[2], label='Stein (biased with no importance sampling)')
-h3 = mpatches.Patch(color=color_list[3], label='Stein (unbiased)')
-h4 = mpatches.Patch(color=color_list[4], label='Stein (unbiased with state-dependent baseline)')
-leg = fig.legend(handles=[h0, h2, h3, h4, h1], loc='lower center', ncol=3, prop={'size': 16})
+legend_handles = []
+legend_order = ['none', 'baseline', 'extra-sample', 'unbiased', 'unbiased--state-only']
+for method in legend_order:
+  legend_handles.append(mpatches.Patch(
+      color=colors[method],
+      label=method_names[method]))
+leg = plt.legend(handles=legend_handles, loc='lower center', ncol=3, prop={'size': 16})
 # Move legend down.
 bb = leg.get_bbox_to_anchor().inverse_transformed(ax.transAxes)
 bb.y0 += -0.18
 leg.set_bbox_to_anchor(bb, transform = ax.transAxes)
-"""
 
-fig.savefig('stein_mean_stds_all2-mini.pdf', bbox_inches='tight', format='pdf')#dpi=200)
+fig.savefig('stein_mean_stds_all2-mini.pdf', bbox_inches='tight', format='pdf')
 
