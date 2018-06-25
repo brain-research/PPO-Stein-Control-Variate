@@ -1,3 +1,9 @@
+# Copyright 2018 Google LLC
+#
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file or at
+# https://opensource.org/licenses/MIT.
+
 python train.py Humanoid-v1 -b 10000 -ps small -c 0 -s 343 --dir-name=humanoid_baseline_343 &
 python train.py HalfCheetah-v1 -b 10000 -ps large -c 0 -s 454 --dir-name=halfcheetah_baseline_454 &
 python train.py Humanoid-v1 -b 10000 -ps small -c 0 -s 454 --dir-name=humanoid_baseline_454 &
