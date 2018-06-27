@@ -13,13 +13,13 @@ for ((s=13; s<=33; s+=30)) # evaluate on one seed to save time
 		# FitQ
 		j=$((50*$i))
 		echo $j
-		python run.py Walker2d-v1 -ps large -p $j -c 1 -n $i -sha load -m 1000 -s $s -po FitQ
+		python run.py Walker2d-v1 -ps large -p $j -c 1 -n $i -sha load -m 500 -s $s -po FitQ
 #		sleep 1.5s
 
 #		# MinVar
 		k=$((50*$i))
 		echo $k
-		python run.py Walker2d-v1 -ps large -p $k -c 1 -n $i -sha load -m 1000 -s $s -po MinVar
+		python run.py Walker2d-v1 -ps large -p $k -c 1 -n $i -sha load -m 500 -s $s -po MinVar
 #		sleep 1.5s
             done
     done 
